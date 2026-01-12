@@ -1,0 +1,44 @@
+[
+  {
+    "\/Users\/eport2\/Documents\/HGMSDK_iOS\/HGMSDK\/HGMSDK.h" : {
+      "key.diagnostic_stage" : "",
+      "key.substructure" : [
+        {
+          "key.always_deprecated" : false,
+          "key.always_unavailable" : false,
+          "key.deprecation_message" : "",
+          "key.doc.column" : 26,
+          "key.doc.file" : "\/Users\/eport2\/Documents\/HGMSDK_iOS\/HGMSDK\/HGMSDK.h",
+          "key.doc.line" : 11,
+          "key.filepath" : "\/Users\/eport2\/Documents\/HGMSDK_iOS\/HGMSDK\/HGMSDK.h",
+          "key.kind" : "sourcekitten.source.lang.objc.decl.constant",
+          "key.name" : "HGMSDKVersionNumber",
+          "key.parsed_declaration" : "extern double HGMSDKVersionNumber",
+          "key.parsed_scope.end" : 11,
+          "key.parsed_scope.start" : 11,
+          "key.swift_declaration" : "var HGMSDKVersionNumber: Double",
+          "key.swift_name" : "HGMSDKVersionNumber",
+          "key.unavailable_message" : "",
+          "key.usr" : "c:@HGMSDKVersionNumber"
+        },
+        {
+          "key.always_deprecated" : false,
+          "key.always_unavailable" : false,
+          "key.deprecation_message" : "",
+          "key.doc.column" : 39,
+          "key.doc.file" : "\/Users\/eport2\/Documents\/HGMSDK_iOS\/HGMSDK\/HGMSDK.h",
+          "key.doc.line" : 14,
+          "key.filepath" : "\/Users\/eport2\/Documents\/HGMSDK_iOS\/HGMSDK\/HGMSDK.h",
+          "key.kind" : "sourcekitten.source.lang.objc.decl.constant",
+          "key.name" : "HGMSDKVersionString",
+          "key.parsed_declaration" : "extern const unsigned char HGMSDKVersionString[]",
+          "key.parsed_scope.end" : 14,
+          "key.parsed_scope.start" : 14,
+          "key.unavailable_message" : "",
+          "key.usr" : "c:@HGMSDKVersionString"
+        }
+      ]
+    }
+  }
+]
+

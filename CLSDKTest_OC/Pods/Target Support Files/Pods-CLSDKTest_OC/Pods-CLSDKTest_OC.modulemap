@@ -1,0 +1,6 @@
+framework module Pods_CLSDKTest_OC {
+  umbrella header "Pods-CLSDKTest_OC-umbrella.h"
+
+  export *
+  module * { export * }
+}

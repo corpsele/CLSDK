@@ -1,0 +1,1 @@
+sudo rm -rf /Users/eport/Documents/sdk_ios/Build/Products/*

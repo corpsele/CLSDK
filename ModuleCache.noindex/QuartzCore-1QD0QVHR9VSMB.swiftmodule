@@ -1,0 +1,84 @@
+---
+path:            '/Volumes/disk6s2/MAC/Xcode13.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/15.5/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule'
+dependencies:
+  - mtime:           1687265672188467000
+    path:            '/Volumes/disk6s2/MAC/Xcode13.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/15.5/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule'
+    size:            22992
+  - mtime:           1687247136990044000
+    path:            'usr/lib/swift/Swift.swiftmodule/arm64-apple-ios.swiftinterface'
+    size:            1900139
+    sdk_relative:    true
+  - mtime:           1687247072687629000
+    path:            'usr/include/Darwin.apinotes'
+    size:            1133
+    sdk_relative:    true
+  - mtime:           1687247123094072000
+    path:            'usr/lib/swift/Darwin.swiftmodule/arm64-apple-ios.swiftinterface'
+    size:            24535
+    sdk_relative:    true
+  - mtime:           1687247115016271000
+    path:            'usr/lib/swift/_Concurrency.swiftmodule/arm64-apple-ios.swiftinterface'
+    size:            97429
+    sdk_relative:    true
+  - mtime:           1687246920887278000
+    path:            'System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/arm64-apple-ios.swiftinterface'
+    size:            167955
+    sdk_relative:    true
+  - mtime:           1687247082667354000
+    path:            'usr/include/objc/ObjectiveC.apinotes'
+    size:            11147
+    sdk_relative:    true
+  - mtime:           1687247132516094000
+    path:            'usr/lib/swift/ObjectiveC.swiftmodule/arm64-apple-ios.swiftinterface'
+    size:            3361
+    sdk_relative:    true
+  - mtime:           1687247124087864000
+    path:            'usr/lib/swift/Dispatch.swiftmodule/arm64-apple-ios.swiftinterface'
+    size:            51116
+    sdk_relative:    true
+  - mtime:           1687247120103932000
+    path:            'usr/lib/swift/CoreFoundation.swiftmodule/arm64-apple-ios.swiftinterface'
+    size:            772
+    sdk_relative:    true
+  - mtime:           1687246929046224000
+    path:            'System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes'
+    size:            55309
+    sdk_relative:    true
+  - mtime:           1687247120295100000
+    path:            'usr/lib/swift/CoreGraphics.swiftmodule/arm64-apple-ios.swiftinterface'
+    size:            45000
+    sdk_relative:    true
+  - mtime:           1687247018999665000
+    path:            'System/Library/Frameworks/Security.framework/Headers/Security.apinotes'
+    size:            162
+    sdk_relative:    true
+  - mtime:           1687246943605461000
+    path:            'System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes'
+    size:            80986
+    sdk_relative:    true
+  - mtime:           1687247124717506000
+    path:            'usr/lib/swift/Foundation.swiftmodule/arm64-apple-ios.swiftinterface'
+    size:            612304
+    sdk_relative:    true
+  - mtime:           1687247005109078000
+    path:            'System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes'
+    size:            1192
+    sdk_relative:    true
+  - mtime:           1687246987066136000
+    path:            'System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes'
+    size:            66790
+    sdk_relative:    true
+  - mtime:           1687247012624232000
+    path:            'System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes'
+    size:            7428
+    sdk_relative:    true
+  - mtime:           1687247130290800000
+    path:            'usr/lib/swift/Metal.swiftmodule/arm64-apple-ios.swiftinterface'
+    size:            16883
+    sdk_relative:    true
+  - mtime:           1687247133815494000
+    path:            'usr/lib/swift/QuartzCore.swiftmodule/arm64-apple-ios.swiftinterface'
+    size:            1557
+    sdk_relative:    true
+version:         1
+...

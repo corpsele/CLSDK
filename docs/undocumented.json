@@ -1,0 +1,33 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/eport2/Documents/HGMSDK_iOS/HGMSDK/NHGBridge_Swift/NHGWebView.swift",
+      "line": 259,
+      "symbol": "NHGWebView.init(frame:configuration:vc:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eport2/Documents/HGMSDK_iOS/HGMSDK/NHGBridge_Swift/NHGWebView.swift",
+      "line": 576,
+      "symbol": "NHGWebView.setWriteFileResultToH5(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eport2/Documents/HGMSDK_iOS/HGMSDK/NHGBridge_Swift/NHGWebView.swift",
+      "line": 581,
+      "symbol": "NHGWebView.setReadFileResultToH5(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eport2/Documents/HGMSDK_iOS/HGMSDK/NHGBridge_Swift/NHGWebView.swift",
+      "line": 636,
+      "symbol": "NHGWebView.shield",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/eport2/Documents/HGMSDK_iOS"
+}

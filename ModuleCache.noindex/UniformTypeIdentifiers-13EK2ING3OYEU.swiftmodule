@@ -1,0 +1,72 @@
+---
+path:            '/Volumes/WIN/MAC/Xcode13.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/15.5/UniformTypeIdentifiers.swiftmodule/armv7-apple-ios.swiftmodule'
+dependencies:
+  - mtime:           1687265690352092000
+    path:            '/Volumes/WIN/MAC/Xcode13.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/15.5/UniformTypeIdentifiers.swiftmodule/armv7-apple-ios.swiftmodule'
+    size:            59256
+  - mtime:           1687247140103131000
+    path:            'usr/lib/swift/Swift.swiftmodule/armv7-apple-ios.swiftinterface'
+    size:            1897319
+    sdk_relative:    true
+  - mtime:           1687247072687629000
+    path:            'usr/include/Darwin.apinotes'
+    size:            1133
+    sdk_relative:    true
+  - mtime:           1687247123503786000
+    path:            'usr/lib/swift/Darwin.swiftmodule/armv7-apple-ios.swiftinterface'
+    size:            24535
+    sdk_relative:    true
+  - mtime:           1687247115257158000
+    path:            'usr/lib/swift/_Concurrency.swiftmodule/armv7-apple-ios.swiftinterface'
+    size:            97429
+    sdk_relative:    true
+  - mtime:           1687246921365739000
+    path:            'System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/armv7-apple-ios.swiftinterface'
+    size:            167955
+    sdk_relative:    true
+  - mtime:           1687247082667354000
+    path:            'usr/include/objc/ObjectiveC.apinotes'
+    size:            11147
+    sdk_relative:    true
+  - mtime:           1687247132637490000
+    path:            'usr/lib/swift/ObjectiveC.swiftmodule/armv7-apple-ios.swiftinterface'
+    size:            3374
+    sdk_relative:    true
+  - mtime:           1687247124275997000
+    path:            'usr/lib/swift/Dispatch.swiftmodule/armv7-apple-ios.swiftinterface'
+    size:            51116
+    sdk_relative:    true
+  - mtime:           1687247120186940000
+    path:            'usr/lib/swift/CoreFoundation.swiftmodule/armv7-apple-ios.swiftinterface'
+    size:            772
+    sdk_relative:    true
+  - mtime:           1687246929046224000
+    path:            'System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes'
+    size:            55309
+    sdk_relative:    true
+  - mtime:           1687247120442166000
+    path:            'usr/lib/swift/CoreGraphics.swiftmodule/armv7-apple-ios.swiftinterface'
+    size:            44999
+    sdk_relative:    true
+  - mtime:           1687247018999665000
+    path:            'System/Library/Frameworks/Security.framework/Headers/Security.apinotes'
+    size:            162
+    sdk_relative:    true
+  - mtime:           1687246943605461000
+    path:            'System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes'
+    size:            80986
+    sdk_relative:    true
+  - mtime:           1687247125554629000
+    path:            'usr/lib/swift/Foundation.swiftmodule/armv7-apple-ios.swiftinterface'
+    size:            612120
+    sdk_relative:    true
+  - mtime:           1687247047599692000
+    path:            'System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes'
+    size:            1666
+    sdk_relative:    true
+  - mtime:           1687247144003178000
+    path:            'usr/lib/swift/UniformTypeIdentifiers.swiftmodule/armv7-apple-ios.swiftinterface'
+    size:            17405
+    sdk_relative:    true
+version:         1
+...

@@ -1,0 +1,12 @@
+---
+path:            '/Volumes/WIN/MAC/Xcode13.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/15.5/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule'
+dependencies:
+  - mtime:           1687265710519465000
+    path:            '/Volumes/WIN/MAC/Xcode13.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/15.5/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule'
+    size:            11316484
+  - mtime:           1687260105191375000
+    path:            'usr/lib/swift/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftinterface'
+    size:            1951033
+    sdk_relative:    true
+version:         1
+...

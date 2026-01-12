@@ -1,0 +1,28 @@
+---
+path:            '/Volumes/Seagate015_4T/mapapps/Xcode13.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/15.5/simd.swiftmodule/arm64-apple-ios-simulator.swiftmodule'
+dependencies:
+  - mtime:           1687265704000000000
+    path:            '/Volumes/Seagate015_4T/mapapps/Xcode13.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/15.5/simd.swiftmodule/arm64-apple-ios-simulator.swiftmodule'
+    size:            649744
+  - mtime:           1687260101000000000
+    path:            'usr/lib/swift/Swift.swiftmodule/arm64-apple-ios-simulator.swiftinterface'
+    size:            1900149
+    sdk_relative:    true
+  - mtime:           1687260073000000000
+    path:            'usr/include/Darwin.apinotes'
+    size:            1133
+    sdk_relative:    true
+  - mtime:           1687260094000000000
+    path:            'usr/lib/swift/Darwin.swiftmodule/arm64-apple-ios-simulator.swiftinterface'
+    size:            24545
+    sdk_relative:    true
+  - mtime:           1687260089000000000
+    path:            'usr/lib/swift/_Concurrency.swiftmodule/arm64-apple-ios-simulator.swiftinterface'
+    size:            97439
+    sdk_relative:    true
+  - mtime:           1687260100000000000
+    path:            'usr/lib/swift/simd.swiftmodule/arm64-apple-ios-simulator.swiftinterface'
+    size:            188180
+    sdk_relative:    true
+version:         1
+...

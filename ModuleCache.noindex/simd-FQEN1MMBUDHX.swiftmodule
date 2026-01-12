@@ -1,0 +1,28 @@
+---
+path:            '/Volumes/1/downloads/Xcode13.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/15.5/simd.swiftmodule/arm64-apple-ios.swiftmodule'
+dependencies:
+  - mtime:           1687241314000000000
+    path:            '/Volumes/1/downloads/Xcode13.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/15.5/simd.swiftmodule/arm64-apple-ios.swiftmodule'
+    size:            649704
+  - mtime:           1687241087000000000
+    path:            'usr/lib/swift/Swift.swiftmodule/arm64-apple-ios.swiftinterface'
+    size:            1900139
+    sdk_relative:    true
+  - mtime:           1650407341000000000
+    path:            'usr/include/Darwin.apinotes'
+    size:            1133
+    sdk_relative:    true
+  - mtime:           1687241087000000000
+    path:            'usr/lib/swift/Darwin.swiftmodule/arm64-apple-ios.swiftinterface'
+    size:            24535
+    sdk_relative:    true
+  - mtime:           1687241087000000000
+    path:            'usr/lib/swift/_Concurrency.swiftmodule/arm64-apple-ios.swiftinterface'
+    size:            97429
+    sdk_relative:    true
+  - mtime:           1687241087000000000
+    path:            'usr/lib/swift/simd.swiftmodule/arm64-apple-ios.swiftinterface'
+    size:            188170
+    sdk_relative:    true
+version:         1
+...

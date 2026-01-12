@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'CLSDKTest_OC' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for HGMSDK
+  pod 'Toast'
+  pod 'YJProgressHUD'
+  pod 'ReactiveCocoa'
+  pod 'ReactiveObjC'
+  pod 'SVProgressHUD'
+  pod 'AFNetworking'
+
+  target 'CLSDKTest_OCTests' do
+    # Pods for testing
+  end
+
+end

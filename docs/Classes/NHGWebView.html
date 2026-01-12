@@ -1,0 +1,3469 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>NHGWebView Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/NHGWebView" class="dashAnchor"></a>
+    <a title="NHGWebView Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (94% documented)</p>
+        <p class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        NHGWebView Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/NHGWebView.html">NHGWebView</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>NHGWebView</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">NHGWebView</span> <span class="p">:</span> <span class="kt">DWKWebView</span><span class="p">,</span> <span class="kt">WKNavigationDelegate</span></code></pre>
+
+                </div>
+              </div>
+            <p>封装DSWebView控件 公开插件方法。
+详细参数定义对照《电子口岸移动平台公共组件接口文档》，请联系数据中心平台组所要。</p>
+
+<hr>
+
+<p><strong>请在项目设置中Build Phases - 添加Copy File Script - 选择frameworks - 选择HGMSDK.xcframework</strong></p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E7%BD%91%E9%A1%B5%E8%AF%B7%E6%B1%82%E5%A4%B1%E8%B4%A5Block"></a>
+                <a name="//apple_ref/swift/Section/网页请求失败Block" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/%E7%BD%91%E9%A1%B5%E8%AF%B7%E6%B1%82%E5%A4%B1%E8%B4%A5Block"></a>
+                  <h3 class="section-name"><p>网页请求失败Block</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(py)didFailProvisionalBlock"></a>
+                    <a name="//apple_ref/swift/Property/didFailProvisionalBlock" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(py)didFailProvisionalBlock">didFailProvisionalBlock</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>网页请求失败 didFailProvisionalNavigation 代理</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">didFailProvisionalBlock</span><span class="p">:</span> <span class="p">((</span><span class="n">_</span> <span class="nv">webView</span><span class="p">:</span> <span class="kt">NHGWebView</span><span class="p">,</span> <span class="n">_</span> <span class="nv">navigation</span><span class="p">:</span> <span class="kt">WKNavigation</span><span class="p">,</span> <span class="n">_</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">Error</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>webView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>webView</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>navigation</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>导航</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>error</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>错误信息</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E5%BC%80%E5%A7%8B%E8%AF%B7%E6%B1%82%E7%BD%91%E9%A1%B5Block"></a>
+                <a name="//apple_ref/swift/Section/开始请求网页Block" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/%E5%BC%80%E5%A7%8B%E8%AF%B7%E6%B1%82%E7%BD%91%E9%A1%B5Block"></a>
+                  <h3 class="section-name"><p>开始请求网页Block</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(py)didStartBlock"></a>
+                    <a name="//apple_ref/swift/Property/didStartBlock" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(py)didStartBlock">didStartBlock</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>开始请求网页 didStartProvisionalNavigation 代理</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">didStartBlock</span><span class="p">:</span> <span class="p">((</span><span class="n">_</span> <span class="nv">webView</span><span class="p">:</span> <span class="kt">NHGWebView</span><span class="p">,</span> <span class="n">_</span> <span class="nv">navigation</span><span class="p">:</span> <span class="kt">WKNavigation</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>webView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>webView</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>navigation</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>导航</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E7%BD%91%E9%A1%B5%E8%AF%B7%E6%B1%82%E6%88%90%E5%8A%9FBlock"></a>
+                <a name="//apple_ref/swift/Section/网页请求成功Block" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/%E7%BD%91%E9%A1%B5%E8%AF%B7%E6%B1%82%E6%88%90%E5%8A%9FBlock"></a>
+                  <h3 class="section-name"><p>网页请求成功Block</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(py)didFinishBlock"></a>
+                    <a name="//apple_ref/swift/Property/didFinishBlock" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(py)didFinishBlock">didFinishBlock</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>完成请求网页并成功 didFinish 代理
+webView webView
+navigation 导航</p>
+
+<hr>
+<div class="aside aside-important">
+    <p class="aside-title">Important</p>
+    important:请求网页成功只是网络畅通情况下
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">didFinishBlock</span><span class="p">:</span> <span class="p">((</span><span class="n">_</span> <span class="nv">webView</span><span class="p">:</span> <span class="kt">NHGWebView</span><span class="p">,</span> <span class="n">_</span> <span class="nv">navigation</span><span class="p">:</span> <span class="kt">WKNavigation</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>webView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>webView</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>navigation</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>导航</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E7%BD%91%E9%A1%B5%E6%8F%90%E4%BA%A4%E8%AF%B7%E6%B1%82Block"></a>
+                <a name="//apple_ref/swift/Section/网页提交请求Block" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/%E7%BD%91%E9%A1%B5%E6%8F%90%E4%BA%A4%E8%AF%B7%E6%B1%82Block"></a>
+                  <h3 class="section-name"><p>网页提交请求Block</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(py)didCommitBlock"></a>
+                    <a name="//apple_ref/swift/Property/didCommitBlock" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(py)didCommitBlock">didCommitBlock</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>请求提交正在跳转 didCommit 代理</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">didCommitBlock</span><span class="p">:</span> <span class="p">((</span><span class="n">_</span> <span class="nv">webView</span><span class="p">:</span> <span class="kt">NHGWebView</span><span class="p">,</span> <span class="n">_</span> <span class="nv">navigation</span><span class="p">:</span> <span class="kt">WKNavigation</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>webView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>webView</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>navigation</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>导航</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E7%BD%91%E9%A1%B5%E8%AF%B7%E6%B1%82%E5%A4%B1%E8%B4%A5Block2"></a>
+                <a name="//apple_ref/swift/Section/网页请求失败Block" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/%E7%BD%91%E9%A1%B5%E8%AF%B7%E6%B1%82%E5%A4%B1%E8%B4%A5Block2"></a>
+                  <h3 class="section-name"><p>网页请求失败Block</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(py)didFailBlock"></a>
+                    <a name="//apple_ref/swift/Property/didFailBlock" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(py)didFailBlock">didFailBlock</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>网页请求失败 didFail 代理</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">didFailBlock</span><span class="p">:</span> <span class="p">((</span><span class="n">_</span> <span class="nv">webView</span><span class="p">:</span> <span class="kt">NHGWebView</span><span class="p">,</span> <span class="n">_</span> <span class="nv">navigation</span><span class="p">:</span> <span class="kt">WKNavigation</span><span class="p">,</span> <span class="n">_</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">Error</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>webView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>webView</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>navigation</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>导航</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>error</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>错误信息</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E7%BD%91%E9%A1%B5%E5%85%B3%E9%97%ADBlock"></a>
+                <a name="//apple_ref/swift/Section/网页关闭Block" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/%E7%BD%91%E9%A1%B5%E5%85%B3%E9%97%ADBlock"></a>
+                  <h3 class="section-name"><p>网页关闭Block</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(py)webDidTerminate"></a>
+                    <a name="//apple_ref/swift/Property/webDidTerminate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(py)webDidTerminate">webDidTerminate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>远程终止</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">webDidTerminate</span><span class="p">:</span> <span class="p">((</span><span class="n">_</span> <span class="nv">webView</span><span class="p">:</span> <span class="kt">NHGWebView</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E9%A1%B5%E9%9D%A2%E5%8D%8F%E8%AE%AEBlock"></a>
+                <a name="//apple_ref/swift/Section/页面协议Block" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/%E9%A1%B5%E9%9D%A2%E5%8D%8F%E8%AE%AEBlock"></a>
+                  <h3 class="section-name"><p>页面协议Block</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(py)decidePolicyForBlock"></a>
+                    <a name="//apple_ref/swift/Property/decidePolicyForBlock" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(py)decidePolicyForBlock">decidePolicyForBlock</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>页面跳转逻辑Block
+@param webView: webView
+@param navigationAction: WKNavigationAction</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">decidePolicyForBlock</span><span class="p">:</span> <span class="p">((</span><span class="n">_</span> <span class="nv">webView</span><span class="p">:</span> <span class="kt">NHGWebView</span><span class="p">,</span> <span class="n">_</span> <span class="nv">navigationAction</span><span class="p">:</span> <span class="kt">WKNavigationAction</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(py)decidePolicyForAction"></a>
+                    <a name="//apple_ref/swift/Property/decidePolicyForAction" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(py)decidePolicyForAction">decidePolicyForAction</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>页面跳转逻辑Block
+@param webView: webView
+@param navigationAction: WKNavigationAction</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">decidePolicyForAction</span><span class="p">:</span> <span class="p">((</span><span class="n">_</span> <span class="nv">webView</span><span class="p">:</span> <span class="kt">NHGWebView</span><span class="p">,</span> <span class="n">_</span> <span class="nv">navigationAction</span><span class="p">:</span> <span class="kt">WKNavigationAction</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E9%A1%B5%E9%9D%A2%E5%93%8D%E5%BA%94Block"></a>
+                <a name="//apple_ref/swift/Section/页面响应Block" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/%E9%A1%B5%E9%9D%A2%E5%93%8D%E5%BA%94Block"></a>
+                  <h3 class="section-name"><p>页面响应Block</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(py)decidePolicyForResponse"></a>
+                    <a name="//apple_ref/swift/Property/decidePolicyForResponse" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(py)decidePolicyForResponse">decidePolicyForResponse</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>页面返回</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">decidePolicyForResponse</span><span class="p">:</span> <span class="p">((</span><span class="n">_</span> <span class="nv">webView</span><span class="p">:</span> <span class="kt">NHGWebView</span><span class="p">,</span> <span class="n">_</span> <span class="nv">navigationAction</span><span class="p">:</span> <span class="kt">WKNavigationResponse</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E9%A1%B5%E9%9D%A2%E6%A0%A1%E9%AA%8C%E5%8F%98%E5%8C%96Block"></a>
+                <a name="//apple_ref/swift/Section/页面校验变化Block" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/%E9%A1%B5%E9%9D%A2%E6%A0%A1%E9%AA%8C%E5%8F%98%E5%8C%96Block"></a>
+                  <h3 class="section-name"><p>页面校验变化Block</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(py)webViewAuthChallenge"></a>
+                    <a name="//apple_ref/swift/Property/webViewAuthChallenge" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(py)webViewAuthChallenge">webViewAuthChallenge</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>webView跨域跳转</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">webViewAuthChallenge</span><span class="p">:</span> <span class="p">((</span><span class="n">_</span> <span class="nv">webView</span><span class="p">:</span> <span class="kt">NHGWebView</span><span class="p">,</span> <span class="n">_</span> <span class="nv">challenge</span><span class="p">:</span> <span class="kt">URLAuthenticationChallenge</span><span class="p">,</span> <span class="n">_</span> <span class="nv">completionHandler</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">URLSession</span><span class="o">.</span><span class="kt">AuthChallengeDisposition</span><span class="p">,</span> <span class="kt">URLCredential</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E9%A1%B5%E9%9D%A2%E8%AD%A6%E5%91%8A%E6%A1%86Block"></a>
+                <a name="//apple_ref/swift/Section/页面警告框Block" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/%E9%A1%B5%E9%9D%A2%E8%AD%A6%E5%91%8A%E6%A1%86Block"></a>
+                  <h3 class="section-name"><p>页面警告框Block</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(py)webViewAlertPanel"></a>
+                    <a name="//apple_ref/swift/Property/webViewAlertPanel" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(py)webViewAlertPanel">webViewAlertPanel</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>webView alert弹框回调</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">webViewAlertPanel</span><span class="p">:</span> <span class="p">((</span><span class="n">_</span> <span class="nv">webView</span><span class="p">:</span> <span class="kt">WKWebView</span><span class="p">,</span> <span class="n">_</span> <span class="nv">message</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">_</span> <span class="nv">frame</span><span class="p">:</span> <span class="kt">WKFrameInfo</span><span class="p">,</span> <span class="n">_</span> <span class="nv">completionHandler</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E9%A1%B5%E9%9D%A2%E7%A1%AE%E8%AE%A4%E6%A1%86Block"></a>
+                <a name="//apple_ref/swift/Section/页面确认框Block" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/%E9%A1%B5%E9%9D%A2%E7%A1%AE%E8%AE%A4%E6%A1%86Block"></a>
+                  <h3 class="section-name"><p>页面确认框Block</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(py)webViewConfirmPanel"></a>
+                    <a name="//apple_ref/swift/Property/webViewConfirmPanel" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(py)webViewConfirmPanel">webViewConfirmPanel</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>webView alert确认弹框回调</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">webViewConfirmPanel</span><span class="p">:</span> <span class="p">((</span><span class="n">_</span> <span class="nv">webView</span><span class="p">:</span> <span class="kt">WKWebView</span><span class="p">,</span> <span class="n">_</span> <span class="nv">message</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">_</span> <span class="nv">frame</span><span class="p">:</span> <span class="kt">WKFrameInfo</span><span class="p">,</span> <span class="n">_</span> <span class="nv">completionHandler</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E5%88%9D%E5%A7%8B%E5%8C%96"></a>
+                <a name="//apple_ref/swift/Section/初始化" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/%E5%88%9D%E5%A7%8B%E5%8C%96"></a>
+                  <h3 class="section-name"><p>初始化</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)initWithCoder:"></a>
+                    <a name="//apple_ref/swift/Method/init(coder:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)initWithCoder:">init(coder:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>父类初始化</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">required</span> <span class="nf">init</span><span class="p">?(</span><span class="nv">coder</span><span class="p">:</span> <span class="kt">NSCoder</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>coder</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>coder</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E7%B1%BB%E5%88%9D%E5%A7%8B%E5%8C%96"></a>
+                <a name="//apple_ref/swift/Section/类初始化" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/%E7%B1%BB%E5%88%9D%E5%A7%8B%E5%8C%96"></a>
+                  <h3 class="section-name"><p>类初始化</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)initWithFrame:configuration:"></a>
+                    <a name="//apple_ref/swift/Method/init(frame:configuration:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)initWithFrame:configuration:">init(frame:<wbr>configuration:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>父类初始化</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">override</span> <span class="nf">init</span><span class="p">(</span><span class="nv">frame</span><span class="p">:</span> <span class="kt">CGRect</span><span class="p">,</span> <span class="nv">configuration</span><span class="p">:</span> <span class="kt">WKWebViewConfiguration</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>frame</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>frame</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>configuration</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>webView配置</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/App%E8%B0%83%E7%94%A8%E5%88%9D%E5%A7%8B%E5%8C%96%E4%BD%BF%E7%94%A8"></a>
+                <a name="//apple_ref/swift/Section/App调用初始化使用" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/App%E8%B0%83%E7%94%A8%E5%88%9D%E5%A7%8B%E5%8C%96%E4%BD%BF%E7%94%A8"></a>
+                  <h3 class="section-name"><p>App调用初始化使用</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)initWithFrame:configuration:vc:"></a>
+                    <a name="//apple_ref/swift/Method/init(frame:configuration:vc:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)initWithFrame:configuration:vc:">init(frame:<wbr>configuration:<wbr>vc:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">frame</span><span class="p">:</span> <span class="kt">CGRect</span><span class="p">,</span> <span class="nv">configuration</span><span class="p">:</span> <span class="kt">WKWebViewConfiguration</span><span class="p">,</span> <span class="nv">vc</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/js%20%E8%B0%83%E7%94%A8%20window.close"></a>
+                <a name="//apple_ref/swift/Section/js 调用 window.close" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/js%20%E8%B0%83%E7%94%A8%20window.close"></a>
+                  <h3 class="section-name"><p>js 调用 window.close</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)setWindowCloseCallBack:"></a>
+                    <a name="//apple_ref/swift/Method/setWindowCloseCallBack(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)setWindowCloseCallBack:">setWindowCloseCallBack(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>当js调用window.close会触发ds的window close回调，在回调中写原生逻辑</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">setWindowCloseCallBack</span><span class="p">(</span><span class="n">_</span> <span class="nv">callBack</span><span class="p">:</span> <span class="p">(()</span> <span class="o">-&gt;</span> <span class="p">())?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callBack</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>回调</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD%E6%88%90%E5%8A%9F%E5%9B%9E%E8%B0%83"></a>
+                <a name="//apple_ref/swift/Section/文件下载成功回调" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD%E6%88%90%E5%8A%9F%E5%9B%9E%E8%B0%83"></a>
+                  <h3 class="section-name"><p>文件下载成功回调</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)setDownloadSuccessCallBack:"></a>
+                    <a name="//apple_ref/swift/Method/setDownloadSuccessCallBack(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)setDownloadSuccessCallBack:">setDownloadSuccessCallBack(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>文件下载成功回调 callBack: filePath 文件下载成功后的路径</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">setDownloadSuccessCallBack</span><span class="p">(</span><span class="n">_</span> <span class="nv">callBack</span><span class="p">:</span> <span class="p">((</span><span class="n">_</span> <span class="nv">filePath</span><span class="p">:</span> <span class="kt">String</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="p">())?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callBack</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>filePath 文件下载成功后的路径</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD%E5%A4%B1%E8%B4%A5%E5%9B%9E%E8%B0%83"></a>
+                <a name="//apple_ref/swift/Section/文件下载失败回调" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD%E5%A4%B1%E8%B4%A5%E5%9B%9E%E8%B0%83"></a>
+                  <h3 class="section-name"><p>文件下载失败回调</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)setDownloadFailedCallBack:"></a>
+                    <a name="//apple_ref/swift/Method/setDownloadFailedCallBack(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)setDownloadFailedCallBack:">setDownloadFailedCallBack(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>文件下载失败回调</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">setDownloadFailedCallBack</span><span class="p">(</span><span class="n">_</span> <span class="nv">callBack</span><span class="p">:</span> <span class="p">((</span><span class="n">_</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="p">())?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callBack</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>error 失败原因</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD%E4%B8%AD%E5%9B%9E%E8%B0%83"></a>
+                <a name="//apple_ref/swift/Section/文件下载中回调" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD%E4%B8%AD%E5%9B%9E%E8%B0%83"></a>
+                  <h3 class="section-name"><p>文件下载中回调</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)setDownloadingCallBack:"></a>
+                    <a name="//apple_ref/swift/Method/setDownloadingCallBack(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)setDownloadingCallBack:">setDownloadingCallBack(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>文件下载中回调</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">setDownloadingCallBack</span><span class="p">(</span><span class="n">_</span> <span class="nv">callBack</span><span class="p">:</span> <span class="p">(()</span> <span class="o">-&gt;</span> <span class="p">())?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callBack</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>回调无参数</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E8%AE%AF%E9%A3%9E%E8%AF%AD%E9%9F%B3%E5%9B%9E%E8%B0%83"></a>
+                <a name="//apple_ref/swift/Section/讯飞语音回调" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/%E8%AE%AF%E9%A3%9E%E8%AF%AD%E9%9F%B3%E5%9B%9E%E8%B0%83"></a>
+                  <h3 class="section-name"><p>讯飞语音回调</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)setSpeechCallBack:"></a>
+                    <a name="//apple_ref/swift/Method/setSpeechCallBack(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)setSpeechCallBack:">setSpeechCallBack(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>讯飞语音回调</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">setSpeechCallBack</span><span class="p">(</span><span class="n">_</span> <span class="nv">callBack</span><span class="p">:</span> <span class="p">((</span><span class="kt">Any</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">())?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callBack</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>回调 Any H5给原生的参数</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E8%AE%AF%E9%A3%9E%E8%AF%AD%E9%9F%B3%E5%8E%9F%E7%94%9F%E7%BB%99H5%E5%9B%9E%E8%B0%83"></a>
+                <a name="//apple_ref/swift/Section/讯飞语音原生给H5回调" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/%E8%AE%AF%E9%A3%9E%E8%AF%AD%E9%9F%B3%E5%8E%9F%E7%94%9F%E7%BB%99H5%E5%9B%9E%E8%B0%83"></a>
+                  <h3 class="section-name"><p>讯飞语音原生给H5回调</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)setSpeechResultToH5:"></a>
+                    <a name="//apple_ref/swift/Method/setSpeechResultToH5(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)setSpeechResultToH5:">setSpeechResultToH5(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>讯飞语音原生给H5回调</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">setSpeechResultToH5</span><span class="p">(</span><span class="n">_</span> <span class="nv">dic</span><span class="p">:</span> <span class="kt">NSDictionary</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>dic</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>给H5的参数</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E5%8A%A0%E5%AF%86%E8%AF%B7%E6%B1%82%E7%BB%99H5%E5%9B%9E%E8%B0%83"></a>
+                <a name="//apple_ref/swift/Section/加密请求给H5回调" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/%E5%8A%A0%E5%AF%86%E8%AF%B7%E6%B1%82%E7%BB%99H5%E5%9B%9E%E8%B0%83"></a>
+                  <h3 class="section-name"><p>加密请求给H5回调</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)setEncryptRequestResultToH5:"></a>
+                    <a name="//apple_ref/swift/Method/setEncryptRequestResultToH5(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)setEncryptRequestResultToH5:">setEncryptRequestResultToH5(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>加密请求给H5回调</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">setEncryptRequestResultToH5</span><span class="p">(</span><span class="n">_</span> <span class="nv">dic</span><span class="p">:</span> <span class="kt">NSDictionary</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>dic</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>给H5的参数
+code    服务请求状态，由服务定义，默认0为请求成功 0 成功 1 失败 101 网络差
+msg    服务请求结果描述信息
+result    服务器返回结果（JSON）</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E6%89%AB%E7%A0%81%E6%8E%A5%E5%8F%A3"></a>
+                <a name="//apple_ref/swift/Section/扫码接口" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/%E6%89%AB%E7%A0%81%E6%8E%A5%E5%8F%A3"></a>
+                  <h3 class="section-name"><p>扫码接口</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)setScannerCallBack:"></a>
+                    <a name="//apple_ref/swift/Method/setScannerCallBack(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)setScannerCallBack:">setScannerCallBack(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>扫码接口</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">setScannerCallBack</span><span class="p">(</span><span class="n">_</span> <span class="nv">callBack</span><span class="p">:</span> <span class="p">(()</span> <span class="o">-&gt;</span> <span class="p">(</span><span class="kt">String</span><span class="p">))?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callBack</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>回调 扫回的内容发给H5</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E6%89%AB%E7%A0%81%E5%8F%96%E6%B6%88%E6%8E%A5%E5%8F%A3"></a>
+                <a name="//apple_ref/swift/Section/扫码取消接口" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/%E6%89%AB%E7%A0%81%E5%8F%96%E6%B6%88%E6%8E%A5%E5%8F%A3"></a>
+                  <h3 class="section-name"><p>扫码取消接口</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)setScannerCancelCallBack:"></a>
+                    <a name="//apple_ref/swift/Method/setScannerCancelCallBack(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)setScannerCancelCallBack:">setScannerCancelCallBack(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>扫码取消接口</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">setScannerCancelCallBack</span><span class="p">(</span><span class="n">_</span> <span class="nv">callBack</span><span class="p">:</span> <span class="p">(()</span> <span class="o">-&gt;</span> <span class="p">())?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callBack</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>回调 无参数</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E4%B8%AD%E5%9B%9E%E8%B0%83"></a>
+                <a name="//apple_ref/swift/Section/文件上传中回调" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E4%B8%AD%E5%9B%9E%E8%B0%83"></a>
+                  <h3 class="section-name"><p>文件上传中回调</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)setFileUploadingCallBack:"></a>
+                    <a name="//apple_ref/swift/Method/setFileUploadingCallBack(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)setFileUploadingCallBack:">setFileUploadingCallBack(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>文件上传中回调</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">setFileUploadingCallBack</span><span class="p">(</span><span class="n">_</span> <span class="nv">callBack</span><span class="p">:</span> <span class="p">(()</span> <span class="o">-&gt;</span> <span class="p">())?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callBack</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>回调无参数</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%88%90%E5%8A%9F%E5%9B%9E%E8%B0%83"></a>
+                <a name="//apple_ref/swift/Section/文件上传成功回调" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%88%90%E5%8A%9F%E5%9B%9E%E8%B0%83"></a>
+                  <h3 class="section-name"><p>文件上传成功回调</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)setFileUploadSuccessCallBack:"></a>
+                    <a name="//apple_ref/swift/Method/setFileUploadSuccessCallBack(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)setFileUploadSuccessCallBack:">setFileUploadSuccessCallBack(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>文件上传成功回调</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">setFileUploadSuccessCallBack</span><span class="p">(</span><span class="n">_</span> <span class="nv">callBack</span><span class="p">:</span> <span class="p">((</span><span class="n">_</span> <span class="nv">dic</span><span class="p">:</span> <span class="kt">Dictionary</span><span class="o">&lt;</span><span class="kt">AnyHashable</span><span class="p">,</span> <span class="kt">Any</span><span class="o">&gt;</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="p">())?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callBack</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>回调字典
+上传成功服务器返回的参数</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%A4%B1%E8%B4%A5%E5%9B%9E%E8%B0%83"></a>
+                <a name="//apple_ref/swift/Section/文件上传失败回调" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%A4%B1%E8%B4%A5%E5%9B%9E%E8%B0%83"></a>
+                  <h3 class="section-name"><p>文件上传失败回调</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)setFileUploadFailedCallBack:"></a>
+                    <a name="//apple_ref/swift/Method/setFileUploadFailedCallBack(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)setFileUploadFailedCallBack:">setFileUploadFailedCallBack(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>文件上传失败回调</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">setFileUploadFailedCallBack</span><span class="p">(</span><span class="n">_</span> <span class="nv">callBack</span><span class="p">:</span> <span class="p">((</span><span class="n">_</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">Error</span><span class="p">?,</span> <span class="n">_</span> <span class="nv">code</span><span class="p">:</span> <span class="kt">NSInteger</span><span class="p">,</span> <span class="n">_</span> <span class="nv">msg</span><span class="p">:</span> <span class="kt">String</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="p">())?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callBack</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>回调错误信息
+error:错误信息 code:错误编号 msg:错误文本</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E9%80%89%E6%8B%A9%E6%96%87%E4%BB%B6%E5%9B%9E%E8%B0%83"></a>
+                <a name="//apple_ref/swift/Section/选择文件回调" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/%E9%80%89%E6%8B%A9%E6%96%87%E4%BB%B6%E5%9B%9E%E8%B0%83"></a>
+                  <h3 class="section-name"><p>选择文件回调</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)setSelectFileCallBack:"></a>
+                    <a name="//apple_ref/swift/Method/setSelectFileCallBack(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)setSelectFileCallBack:">setSelectFileCallBack(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>选择文件回调</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">setSelectFileCallBack</span><span class="p">(</span><span class="n">_</span> <span class="nv">callBack</span><span class="p">:</span> <span class="p">((</span><span class="n">_</span> <span class="nv">dic</span><span class="p">:</span> <span class="kt">Dictionary</span><span class="o">&lt;</span><span class="kt">AnyHashable</span><span class="p">,</span> <span class="kt">Any</span><span class="o">&gt;</span><span class="p">?,</span> <span class="n">_</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="p">())?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callBack</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>回调数据和错误信息
+dic: 服务器返回的参数 error: 错误信息</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E8%8E%B7%E5%8F%96%E8%AE%BE%E5%A4%87%E4%BF%A1%E6%81%AF%E5%9B%9E%E8%B0%83"></a>
+                <a name="//apple_ref/swift/Section/获取设备信息回调" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/%E8%8E%B7%E5%8F%96%E8%AE%BE%E5%A4%87%E4%BF%A1%E6%81%AF%E5%9B%9E%E8%B0%83"></a>
+                  <h3 class="section-name"><p>获取设备信息回调</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)setDeviceInfoCallBack:"></a>
+                    <a name="//apple_ref/swift/Method/setDeviceInfoCallBack(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)setDeviceInfoCallBack:">setDeviceInfoCallBack(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>获取设备信息回调</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">setDeviceInfoCallBack</span><span class="p">(</span><span class="n">_</span> <span class="nv">callBack</span><span class="p">:</span> <span class="p">(()</span> <span class="o">-&gt;</span> <span class="p">([</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]))?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callBack</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>回调
+返回给H5参数 暂时无参数</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E8%8E%B7%E5%8F%96%E4%BD%8D%E7%BD%AE%E4%BF%A1%E6%81%AF%E5%9B%9E%E8%B0%83"></a>
+                <a name="//apple_ref/swift/Section/获取位置信息回调" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/%E8%8E%B7%E5%8F%96%E4%BD%8D%E7%BD%AE%E4%BF%A1%E6%81%AF%E5%9B%9E%E8%B0%83"></a>
+                  <h3 class="section-name"><p>获取位置信息回调</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)setLocationCallBack:"></a>
+                    <a name="//apple_ref/swift/Method/setLocationCallBack(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)setLocationCallBack:">setLocationCallBack(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>获取位置信息回调</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">setLocationCallBack</span><span class="p">(</span><span class="n">_</span> <span class="nv">callBack</span><span class="p">:</span> <span class="p">(()</span> <span class="o">-&gt;</span> <span class="p">([</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]))?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callBack</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>回调
+返回给H5参数 暂时无参数</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E5%87%86%E5%A4%87%E4%B8%8A%E4%BC%A0%E5%9B%9E%E8%B0%83%20%E5%8D%95%E4%B8%80"></a>
+                <a name="//apple_ref/swift/Section/准备上传回调 单一" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/%E5%87%86%E5%A4%87%E4%B8%8A%E4%BC%A0%E5%9B%9E%E8%B0%83%20%E5%8D%95%E4%B8%80"></a>
+                  <h3 class="section-name"><p>准备上传回调 单一</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)setPrepareUploadCallBack:"></a>
+                    <a name="//apple_ref/swift/Method/setPrepareUploadCallBack(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)setPrepareUploadCallBack:">setPrepareUploadCallBack(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>准备下载回调 单一</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">setPrepareUploadCallBack</span><span class="p">(</span><span class="n">_</span> <span class="nv">callBack</span><span class="p">:</span> <span class="p">(()</span> <span class="o">-&gt;</span> <span class="kt">String</span><span class="p">)?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callBack</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>返回给H5 casTgc</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E5%87%86%E5%A4%87%E4%B8%8B%E8%BD%BD%E5%9B%9E%E8%B0%83%20%E5%8D%95%E4%B8%80"></a>
+                <a name="//apple_ref/swift/Section/准备下载回调 单一" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/%E5%87%86%E5%A4%87%E4%B8%8B%E8%BD%BD%E5%9B%9E%E8%B0%83%20%E5%8D%95%E4%B8%80"></a>
+                  <h3 class="section-name"><p>准备下载回调 单一</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)setPrepareDownloadCallBack:"></a>
+                    <a name="//apple_ref/swift/Method/setPrepareDownloadCallBack(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)setPrepareDownloadCallBack:">setPrepareDownloadCallBack(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>准备下载回调 单一</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">setPrepareDownloadCallBack</span><span class="p">(</span><span class="n">_</span> <span class="nv">callBack</span><span class="p">:</span> <span class="p">(()</span> <span class="o">-&gt;</span> <span class="kt">String</span><span class="p">)?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callBack</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>返回给H5 jsessionid</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/tgc%E5%87%86%E5%A4%87%E4%B8%8B%E8%BD%BD%E5%9B%9E%E8%B0%83%20%E5%8D%95%E4%B8%80"></a>
+                <a name="//apple_ref/swift/Section/tgc准备下载回调 单一" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/tgc%E5%87%86%E5%A4%87%E4%B8%8B%E8%BD%BD%E5%9B%9E%E8%B0%83%20%E5%8D%95%E4%B8%80"></a>
+                  <h3 class="section-name"><p>tgc准备下载回调 单一</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)setTgcPrepareDownloadCallBack:"></a>
+                    <a name="//apple_ref/swift/Method/setTgcPrepareDownloadCallBack(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)setTgcPrepareDownloadCallBack:">setTgcPrepareDownloadCallBack(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>tgc准备下载回调 单一</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">setTgcPrepareDownloadCallBack</span><span class="p">(</span><span class="n">_</span> <span class="nv">callBack</span><span class="p">:</span> <span class="p">(()</span> <span class="o">-&gt;</span> <span class="kt">String</span><span class="p">)?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callBack</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>返回给H5 jsessionid</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E8%AE%BE%E7%BD%AE%E6%89%8B%E6%9C%BA%E7%9B%BE%E5%8A%A0%E7%AD%BE%E5%85%A5%E5%8F%82"></a>
+                <a name="//apple_ref/swift/Section/设置手机盾加签入参" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/%E8%AE%BE%E7%BD%AE%E6%89%8B%E6%9C%BA%E7%9B%BE%E5%8A%A0%E7%AD%BE%E5%85%A5%E5%8F%82"></a>
+                  <h3 class="section-name"><p>设置手机盾加签入参</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)setShieldParamForSignCallBack:"></a>
+                    <a name="//apple_ref/swift/Method/setShieldParamForSignCallBack(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)setShieldParamForSignCallBack:">setShieldParamForSignCallBack(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>设置手机盾加签入参</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">setShieldParamForSignCallBack</span><span class="p">(</span><span class="n">_</span> <span class="nv">callBack</span><span class="p">:</span> <span class="p">((</span><span class="kt">Any</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">([</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]))?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callBack</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>返回手机盾入参
+String: 返回给原生所需参数 [String: Any] 返回给H5 字典加密内容</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E5%85%B3%E9%97%AD%E5%B0%8F%E5%BA%94%E7%94%A8"></a>
+                <a name="//apple_ref/swift/Section/关闭小应用" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/%E5%85%B3%E9%97%AD%E5%B0%8F%E5%BA%94%E7%94%A8"></a>
+                  <h3 class="section-name"><p>关闭小应用</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)setWebViewDidCloseCallBack:"></a>
+                    <a name="//apple_ref/swift/Method/setWebViewDidCloseCallBack(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)setWebViewDidCloseCallBack:">setWebViewDidCloseCallBack(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">setWebViewDidCloseCallBack</span><span class="p">(</span><span class="n">_</span> <span class="nv">callBack</span><span class="p">:</span> <span class="p">(()</span> <span class="o">-&gt;</span> <span class="p">())?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callBack</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>回调无参数</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E8%B7%B3%E8%BD%AC%E5%B0%8F%E7%A8%8B%E5%BA%8F"></a>
+                <a name="//apple_ref/swift/Section/跳转小程序" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/%E8%B7%B3%E8%BD%AC%E5%B0%8F%E7%A8%8B%E5%BA%8F"></a>
+                  <h3 class="section-name"><p>跳转小程序</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)setJumpAppletCallBack:"></a>
+                    <a name="//apple_ref/swift/Method/setJumpAppletCallBack(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)setJumpAppletCallBack:">setJumpAppletCallBack(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">setJumpAppletCallBack</span><span class="p">(</span><span class="n">_</span> <span class="nv">callBack</span><span class="p">:</span> <span class="p">((([</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]),</span> <span class="kt">JSCallback</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">())?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callBack</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>参数如下
+参数[String: Any] 是 H5传给原生的参数 {&ldquo;originalId&rdquo;:&ldquo;11sfsf112&rdquo;&ldquo;path&rdquo;:&ldquo;xxxxx&rdquo;}
+参数JSCallback 是 返回给H5的参数 1.String=字典转字符串 字典包含{&ldquo;code&rdquo;:0,&ldquo;msg&rdquo;:&ldquo;成功&rdquo;,} 2.BOOL=true</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E5%BA%94%E7%94%A8%E5%86%85%E8%B7%B3%E8%BD%AC"></a>
+                <a name="//apple_ref/swift/Section/应用内跳转" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/%E5%BA%94%E7%94%A8%E5%86%85%E8%B7%B3%E8%BD%AC"></a>
+                  <h3 class="section-name"><p>应用内跳转</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)setOpenPageCallBack:"></a>
+                    <a name="//apple_ref/swift/Method/setOpenPageCallBack(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)setOpenPageCallBack:">setOpenPageCallBack(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">setOpenPageCallBack</span><span class="p">(</span><span class="n">_</span> <span class="nv">callBack</span><span class="p">:</span> <span class="p">((([</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]),</span> <span class="kt">JSCallback</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">())?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callBack</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>参数如下
+参数[String: Any] 是 H5传给原生的参数 {&ldquo;pageId&rdquo;:&ldquo;xxxx&rdquo;&ldquo;appId&rdquo;:&ldquo;xxxxx&rdquo;&ldquo;msg&rdquo;:&ldquo;xxx&rdquo;}
+参数JSCallback 是 返回给H5的参数 1.String=字典转字符串 字典包含{&ldquo;code&rdquo;:0,&ldquo;msg&rdquo;:&ldquo;成功&rdquo;,} 2.BOOL=true</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E6%95%B0%E6%8D%AE%E5%8A%A0%E5%AF%86"></a>
+                <a name="//apple_ref/swift/Section/数据加密" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/%E6%95%B0%E6%8D%AE%E5%8A%A0%E5%AF%86"></a>
+                  <h3 class="section-name"><p>数据加密</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)setDataEncryptCallBack:"></a>
+                    <a name="//apple_ref/swift/Method/setDataEncryptCallBack(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)setDataEncryptCallBack:">setDataEncryptCallBack(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>数据加密</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">setDataEncryptCallBack</span><span class="p">(</span><span class="n">_</span> <span class="nv">callBack</span><span class="p">:</span> <span class="p">((([</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]),</span> <span class="kt">JSCallback</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">())?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callBack</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>参数
+数据加密</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E8%AF%B7%E6%B1%82%E5%8A%A0%E5%AF%86"></a>
+                <a name="//apple_ref/swift/Section/请求加密" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/%E8%AF%B7%E6%B1%82%E5%8A%A0%E5%AF%86"></a>
+                  <h3 class="section-name"><p>请求加密</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)setEncryptRequestCallBack:"></a>
+                    <a name="//apple_ref/swift/Method/setEncryptRequestCallBack(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)setEncryptRequestCallBack:">setEncryptRequestCallBack(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>请求加密</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">setEncryptRequestCallBack</span><span class="p">(</span><span class="n">_</span> <span class="nv">callBack</span><span class="p">:</span> <span class="p">((([</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]),</span> <span class="kt">JSCallback</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">())?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callBack</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>参数
+data    请求体参数，json格式
+header    请求头参数:key为header请求头的key，value为请求头的value（JSON）
+url    接口请求地址</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C%E8%AF%BB%E6%96%87%E4%BB%B6"></a>
+                <a name="//apple_ref/swift/Section/文件操作读文件" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C%E8%AF%BB%E6%96%87%E4%BB%B6"></a>
+                  <h3 class="section-name"><p>文件操作读文件</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)setReadFileCallBack:"></a>
+                    <a name="//apple_ref/swift/Method/setReadFileCallBack(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)setReadFileCallBack:">setReadFileCallBack(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>文件操作读文件</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">setReadFileCallBack</span><span class="p">(</span><span class="n">_</span> <span class="nv">callBack</span><span class="p">:</span> <span class="p">((([</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]),</span> <span class="kt">JSCallback</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">())?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callBack</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>参数
+filePath 文件相对路径
+content 文件内容字符串</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C%E5%86%99%E6%96%87%E4%BB%B6"></a>
+                <a name="//apple_ref/swift/Section/文件操作写文件" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C%E5%86%99%E6%96%87%E4%BB%B6"></a>
+                  <h3 class="section-name"><p>文件操作写文件</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)setWriteFileCallBack:"></a>
+                    <a name="//apple_ref/swift/Method/setWriteFileCallBack(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)setWriteFileCallBack:">setWriteFileCallBack(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>文件操作写文件</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">setWriteFileCallBack</span><span class="p">(</span><span class="n">_</span> <span class="nv">callBack</span><span class="p">:</span> <span class="p">((([</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]),</span> <span class="kt">JSCallback</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">())?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callBack</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>参数
+filePath 文件相对路径
+content 文件内容字符串</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C%E5%86%99%E6%96%87%E4%BB%B6%E5%9B%9E%E8%B0%83%E7%BB%99H5"></a>
+                <a name="//apple_ref/swift/Section/文件操作写文件回调给H5" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C%E5%86%99%E6%96%87%E4%BB%B6%E5%9B%9E%E8%B0%83%E7%BB%99H5"></a>
+                  <h3 class="section-name"><p>文件操作写文件回调给H5</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)setWriteFileResultToH5:"></a>
+                    <a name="//apple_ref/swift/Method/setWriteFileResultToH5(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)setWriteFileResultToH5:">setWriteFileResultToH5(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">setWriteFileResultToH5</span><span class="p">(</span><span class="n">_</span> <span class="nv">dic</span><span class="p">:</span> <span class="kt">NSDictionary</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C%E8%AF%BB%E6%96%87%E4%BB%B6%E5%9B%9E%E8%B0%83%E7%BB%99H5"></a>
+                <a name="//apple_ref/swift/Section/文件操作读文件回调给H5" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C%E8%AF%BB%E6%96%87%E4%BB%B6%E5%9B%9E%E8%B0%83%E7%BB%99H5"></a>
+                  <h3 class="section-name"><p>文件操作读文件回调给H5</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)setReadFileResultToH5:"></a>
+                    <a name="//apple_ref/swift/Method/setReadFileResultToH5(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)setReadFileResultToH5:">setReadFileResultToH5(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">setReadFileResultToH5</span><span class="p">(</span><span class="n">_</span> <span class="nv">dic</span><span class="p">:</span> <span class="kt">NSDictionary</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E8%A1%A8%E5%8D%95%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%9B%9E%E8%B0%83"></a>
+                <a name="//apple_ref/swift/Section/表单文件上传回调" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/%E8%A1%A8%E5%8D%95%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%9B%9E%E8%B0%83"></a>
+                  <h3 class="section-name"><p>表单文件上传回调</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)setFormDataUploadCallBack:"></a>
+                    <a name="//apple_ref/swift/Method/setFormDataUploadCallBack(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)setFormDataUploadCallBack:">setFormDataUploadCallBack(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>表单文件上传回调</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">setFormDataUploadCallBack</span><span class="p">(</span><span class="n">_</span> <span class="nv">callBack</span><span class="p">:</span> <span class="p">((</span><span class="n">_</span> <span class="nv">dic</span><span class="p">:</span> <span class="kt">Dictionary</span><span class="o">&lt;</span><span class="kt">AnyHashable</span><span class="p">,</span> <span class="kt">Any</span><span class="o">&gt;</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="p">())?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callBack</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>回调参数
+uploadUrl 上传url地址
+filePath 本地文件路径
+postParams post参数</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)setFormDataUploadResultToH5:"></a>
+                    <a name="//apple_ref/swift/Method/setFormDataUploadResultToH5(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)setFormDataUploadResultToH5:">setFormDataUploadResultToH5(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>表单文件上传传回给H5</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">setFormDataUploadResultToH5</span><span class="p">(</span><span class="n">_</span> <span class="nv">dic</span><span class="p">:</span> <span class="kt">NSDictionary</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>dic</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>参数
+code 0
+msg 成功
+response 上传成功返回的response</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E6%89%8B%E6%9C%BA%E7%9B%BE"></a>
+                <a name="//apple_ref/swift/Section/手机盾" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/%E6%89%8B%E6%9C%BA%E7%9B%BE"></a>
+                  <h3 class="section-name"><p>手机盾</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6HGMSDK10NHGWebViewC6shieldAA6HGSignCvp"></a>
+                    <a name="//apple_ref/swift/Property/shield" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6HGMSDK10NHGWebViewC6shieldAA6HGSignCvp">shield</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">internal</span> <span class="kd">lazy</span> <span class="k">var</span> <span class="nv">shield</span><span class="p">:</span> <span class="kt">HGSign</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E5%B0%86%E6%89%8B%E6%9C%BA%E7%9B%BE%E5%8A%A0%E7%AD%BE%E5%90%8E%E7%9A%84%E7%BB%93%E6%9E%9C%E4%BC%A0%E7%BB%99H5"></a>
+                <a name="//apple_ref/swift/Section/将手机盾加签后的结果传给H5" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/%E5%B0%86%E6%89%8B%E6%9C%BA%E7%9B%BE%E5%8A%A0%E7%AD%BE%E5%90%8E%E7%9A%84%E7%BB%93%E6%9E%9C%E4%BC%A0%E7%BB%99H5"></a>
+                  <h3 class="section-name"><p>将手机盾加签后的结果传给H5</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)setDataSignResultToH5:"></a>
+                    <a name="//apple_ref/swift/Method/setDataSignResultToH5(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)setDataSignResultToH5:">setDataSignResultToH5(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">setDataSignResultToH5</span><span class="p">(</span><span class="n">_</span> <span class="nv">dic</span><span class="p">:</span> <span class="kt">NSDictionary</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>dic</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>返回结果字典</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%B7%B3%E5%9B%9E%E7%BB%93%E6%9E%9C%E4%BC%A0%E7%BB%99H5"></a>
+                <a name="//apple_ref/swift/Section/微信小程序跳回结果传给H5" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%B7%B3%E5%9B%9E%E7%BB%93%E6%9E%9C%E4%BC%A0%E7%BB%99H5"></a>
+                  <h3 class="section-name"><p>微信小程序跳回结果传给H5</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)setWeChatResultToH5:"></a>
+                    <a name="//apple_ref/swift/Method/setWeChatResultToH5(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)setWeChatResultToH5:">setWeChatResultToH5(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">setWeChatResultToH5</span><span class="p">(</span><span class="n">_</span> <span class="nv">dic</span><span class="p">:</span> <span class="kt">NSDictionary</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>dic</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>小程序传回的字典</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E6%89%93%E5%BC%80%E9%A1%B5%E9%9D%A2%E4%BC%A0%E7%BB%99H5"></a>
+                <a name="//apple_ref/swift/Section/打开页面传给H5" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/%E6%89%93%E5%BC%80%E9%A1%B5%E9%9D%A2%E4%BC%A0%E7%BB%99H5"></a>
+                  <h3 class="section-name"><p>打开页面传给H5</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)setOpenPageResultToH5:"></a>
+                    <a name="//apple_ref/swift/Method/setOpenPageResultToH5(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)setOpenPageResultToH5:">setOpenPageResultToH5(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">setOpenPageResultToH5</span><span class="p">(</span><span class="n">_</span> <span class="nv">dic</span><span class="p">:</span> <span class="kt">NSDictionary</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>dic</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>返回的字典</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/%E6%95%B0%E6%8D%AE%E5%8A%A0%E5%AF%86%E4%BC%A0%E7%BB%99H5"></a>
+                <a name="//apple_ref/swift/Section/数据加密传给H5" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/%E6%95%B0%E6%8D%AE%E5%8A%A0%E5%AF%86%E4%BC%A0%E7%BB%99H5"></a>
+                  <h3 class="section-name"><p>数据加密传给H5</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)setDataEncryptResultToH5:"></a>
+                    <a name="//apple_ref/swift/Method/setDataEncryptResultToH5(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)setDataEncryptResultToH5:">setDataEncryptResultToH5(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">setDataEncryptResultToH5</span><span class="p">(</span><span class="n">_</span> <span class="nv">dic</span><span class="p">:</span> <span class="kt">NSDictionary</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>dic</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>返回的字典</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/webView%E5%85%B3%E9%97%AD"></a>
+                <a name="//apple_ref/swift/Section/webView关闭" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/webView%E5%85%B3%E9%97%AD"></a>
+                  <h3 class="section-name"><p>webView关闭</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)webViewDidClose:"></a>
+                    <a name="//apple_ref/swift/Method/webViewDidClose(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)webViewDidClose:">webViewDidClose(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>系统父类方法 请使用setWebViewDidCloseCallBack回调实现</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">override</span> <span class="kd">func</span> <span class="nf">webViewDidClose</span><span class="p">(</span><span class="n">_</span> <span class="nv">webView</span><span class="p">:</span> <span class="kt">WKWebView</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/webView%E7%BA%BF%E7%A8%8B%E5%85%B3%E9%97%AD"></a>
+                <a name="//apple_ref/swift/Section/webView线程关闭" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/webView%E7%BA%BF%E7%A8%8B%E5%85%B3%E9%97%AD"></a>
+                  <h3 class="section-name"><p>webView线程关闭</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)webViewWebContentProcessDidTerminate:"></a>
+                    <a name="//apple_ref/swift/Method/webViewWebContentProcessDidTerminate(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)webViewWebContentProcessDidTerminate:">webViewWebContentProcessDidTerminate(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>系统父类方法 请使用webDidTerminate回调实现</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">webViewWebContentProcessDidTerminate</span><span class="p">(</span><span class="n">_</span> <span class="nv">webView</span><span class="p">:</span> <span class="kt">WKWebView</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/WebView%E7%B3%BB%E7%BB%9F%E4%BB%A3%E7%90%86"></a>
+                <a name="//apple_ref/swift/Section/WebView系统代理" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/WebView%E7%B3%BB%E7%BB%9F%E4%BB%A3%E7%90%86"></a>
+                  <h3 class="section-name"><p>WebView系统代理</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)webView:didStartProvisionalNavigation:"></a>
+                    <a name="//apple_ref/swift/Method/webView(_:didStartProvisionalNavigation:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)webView:didStartProvisionalNavigation:">webView(_:<wbr>didStartProvisionalNavigation:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>系统父类方法 请使用didStartBlock回调实现</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">webView</span><span class="p">(</span><span class="n">_</span> <span class="nv">webView</span><span class="p">:</span> <span class="kt">WKWebView</span><span class="p">,</span> <span class="n">didStartProvisionalNavigation</span> <span class="nv">navigation</span><span class="p">:</span> <span class="kt">WKNavigation</span><span class="o">!</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)webView:didFailProvisionalNavigation:withError:"></a>
+                    <a name="//apple_ref/swift/Method/webView(_:didFailProvisionalNavigation:withError:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)webView:didFailProvisionalNavigation:withError:">webView(_:<wbr>didFailProvisionalNavigation:<wbr>withError:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>系统父类方法 请使用didFailProvisionalBlock回调实现</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">webView</span><span class="p">(</span><span class="n">_</span> <span class="nv">webView</span><span class="p">:</span> <span class="kt">WKWebView</span><span class="p">,</span> <span class="n">didFailProvisionalNavigation</span> <span class="nv">navigation</span><span class="p">:</span> <span class="kt">WKNavigation</span><span class="o">!</span><span class="p">,</span> <span class="n">withError</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">Error</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)webView:didFinishNavigation:"></a>
+                    <a name="//apple_ref/swift/Method/webView(_:didFinish:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)webView:didFinishNavigation:">webView(_:<wbr>didFinish:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>系统父类方法 请使用didFinishBlock回调实现</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">webView</span><span class="p">(</span><span class="n">_</span> <span class="nv">webView</span><span class="p">:</span> <span class="kt">WKWebView</span><span class="p">,</span> <span class="n">didFinish</span> <span class="nv">navigation</span><span class="p">:</span> <span class="kt">WKNavigation</span><span class="o">!</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)webView:didFailNavigation:withError:"></a>
+                    <a name="//apple_ref/swift/Method/webView(_:didFail:withError:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)webView:didFailNavigation:withError:">webView(_:<wbr>didFail:<wbr>withError:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>系统父类方法 请使用didFailBlock回调实现</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">webView</span><span class="p">(</span><span class="n">_</span> <span class="nv">webView</span><span class="p">:</span> <span class="kt">WKWebView</span><span class="p">,</span> <span class="n">didFail</span> <span class="nv">navigation</span><span class="p">:</span> <span class="kt">WKNavigation</span><span class="o">!</span><span class="p">,</span> <span class="n">withError</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">Error</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)webView:didCommitNavigation:"></a>
+                    <a name="//apple_ref/swift/Method/webView(_:didCommit:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)webView:didCommitNavigation:">webView(_:<wbr>didCommit:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>系统父类方法 请使用didCommitBlock回调实现</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">webView</span><span class="p">(</span><span class="n">_</span> <span class="nv">webView</span><span class="p">:</span> <span class="kt">WKWebView</span><span class="p">,</span> <span class="n">didCommit</span> <span class="nv">navigation</span><span class="p">:</span> <span class="kt">WKNavigation</span><span class="o">!</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)webView:didReceiveAuthenticationChallenge:completionHandler:"></a>
+                    <a name="//apple_ref/swift/Method/webView(_:didReceive:completionHandler:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)webView:didReceiveAuthenticationChallenge:completionHandler:">webView(_:<wbr>didReceive:<wbr>completionHandler:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>系统父类方法 请使用webViewAuthChallenge回调实现</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">webView</span><span class="p">(</span><span class="n">_</span> <span class="nv">webView</span><span class="p">:</span> <span class="kt">WKWebView</span><span class="p">,</span> <span class="n">didReceive</span> <span class="nv">challenge</span><span class="p">:</span> <span class="kt">URLAuthenticationChallenge</span><span class="p">,</span> <span class="nv">completionHandler</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">URLSession</span><span class="o">.</span><span class="kt">AuthChallengeDisposition</span><span class="p">,</span> <span class="kt">URLCredential</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)webView:decidePolicyForNavigationAction:decisionHandler:"></a>
+                    <a name="//apple_ref/swift/Method/webView(_:decidePolicyFor:decisionHandler:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)webView:decidePolicyForNavigationAction:decisionHandler:">webView(_:<wbr>decidePolicyFor:<wbr>decisionHandler:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>系统父类方法 请使用decidePolicyForAction回调实现</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">webView</span><span class="p">(</span><span class="n">_</span> <span class="nv">webView</span><span class="p">:</span> <span class="kt">WKWebView</span><span class="p">,</span> <span class="n">decidePolicyFor</span> <span class="nv">navigationAction</span><span class="p">:</span> <span class="kt">WKNavigationAction</span><span class="p">,</span> <span class="nv">decisionHandler</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">WKNavigationActionPolicy</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)webView:decidePolicyForNavigationResponse:decisionHandler:"></a>
+                    <a name="//apple_ref/swift/Method/webView(_:decidePolicyFor:decisionHandler:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)webView:decidePolicyForNavigationResponse:decisionHandler:">webView(_:<wbr>decidePolicyFor:<wbr>decisionHandler:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>系统父类方法 请使用decidePolicyForResponse回调实现</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">webView</span><span class="p">(</span><span class="n">_</span> <span class="nv">webView</span><span class="p">:</span> <span class="kt">WKWebView</span><span class="p">,</span> <span class="n">decidePolicyFor</span> <span class="nv">navigationResponse</span><span class="p">:</span> <span class="kt">WKNavigationResponse</span><span class="p">,</span> <span class="nv">decisionHandler</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">WKNavigationResponsePolicy</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)webView:shouldPreviewElement:"></a>
+                    <a name="//apple_ref/swift/Method/webView(_:shouldPreviewElement:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)webView:shouldPreviewElement:">webView(_:<wbr>shouldPreviewElement:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>系统父类方法</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">override</span> <span class="kd">func</span> <span class="nf">webView</span><span class="p">(</span><span class="n">_</span> <span class="nv">webView</span><span class="p">:</span> <span class="kt">WKWebView</span><span class="p">,</span> <span class="n">shouldPreviewElement</span> <span class="nv">elementInfo</span><span class="p">:</span> <span class="kt">WKPreviewElementInfo</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)webView:contextMenuConfigurationForElement:completionHandler:"></a>
+                    <a name="//apple_ref/swift/Method/webView(_:contextMenuConfigurationForElement:completionHandler:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)webView:contextMenuConfigurationForElement:completionHandler:">webView(_:<wbr>contextMenuConfigurationForElement:<wbr>completionHandler:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>系统父类方法</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@available</span><span class="p">(</span><span class="n">iOS</span> <span class="mf">13.0</span><span class="p">,</span> <span class="o">*</span><span class="p">)</span>
+<span class="kd">public</span> <span class="k">override</span> <span class="kd">func</span> <span class="nf">webView</span><span class="p">(</span><span class="n">_</span> <span class="nv">webView</span><span class="p">:</span> <span class="kt">WKWebView</span><span class="p">,</span> <span class="n">contextMenuConfigurationForElement</span> <span class="nv">elementInfo</span><span class="p">:</span> <span class="kt">WKContextMenuElementInfo</span><span class="p">,</span> <span class="nv">completionHandler</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">UIContextMenuConfiguration</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:completionHandler:"></a>
+                    <a name="//apple_ref/swift/Method/webView(_:runJavaScriptAlertPanelWithMessage:initiatedByFrame:completionHandler:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:completionHandler:">webView(_:<wbr>runJavaScriptAlertPanelWithMessage:<wbr>initiatedByFrame:<wbr>completionHandler:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>系统父类方法 请使用webViewAlertPanel回调实现</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">override</span> <span class="kd">func</span> <span class="nf">webView</span><span class="p">(</span><span class="n">_</span> <span class="nv">webView</span><span class="p">:</span> <span class="kt">WKWebView</span><span class="p">,</span> <span class="n">runJavaScriptAlertPanelWithMessage</span> <span class="nv">message</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">initiatedByFrame</span> <span class="nv">frame</span><span class="p">:</span> <span class="kt">WKFrameInfo</span><span class="p">,</span> <span class="nv">completionHandler</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)webView:runJavaScriptConfirmPanelWithMessage:initiatedByFrame:completionHandler:"></a>
+                    <a name="//apple_ref/swift/Method/webView(_:runJavaScriptConfirmPanelWithMessage:initiatedByFrame:completionHandler:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)webView:runJavaScriptConfirmPanelWithMessage:initiatedByFrame:completionHandler:">webView(_:<wbr>runJavaScriptConfirmPanelWithMessage:<wbr>initiatedByFrame:<wbr>completionHandler:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>系统父类方法 请使用webViewConfirmPanel回调实现</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">override</span> <span class="kd">func</span> <span class="nf">webView</span><span class="p">(</span><span class="n">_</span> <span class="nv">webView</span><span class="p">:</span> <span class="kt">WKWebView</span><span class="p">,</span> <span class="n">runJavaScriptConfirmPanelWithMessage</span> <span class="nv">message</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">initiatedByFrame</span> <span class="nv">frame</span><span class="p">:</span> <span class="kt">WKFrameInfo</span><span class="p">,</span> <span class="nv">completionHandler</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)webView:createWebViewWithConfiguration:forNavigationAction:windowFeatures:"></a>
+                    <a name="//apple_ref/swift/Method/webView(_:createWebViewWith:for:windowFeatures:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)webView:createWebViewWithConfiguration:forNavigationAction:windowFeatures:">webView(_:<wbr>createWebViewWith:<wbr>for:<wbr>windowFeatures:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>系统父类方法</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">override</span> <span class="kd">func</span> <span class="nf">webView</span><span class="p">(</span><span class="n">_</span> <span class="nv">webView</span><span class="p">:</span> <span class="kt">WKWebView</span><span class="p">,</span> <span class="n">createWebViewWith</span> <span class="nv">configuration</span><span class="p">:</span> <span class="kt">WKWebViewConfiguration</span><span class="p">,</span> <span class="k">for</span> <span class="nv">navigationAction</span><span class="p">:</span> <span class="kt">WKNavigationAction</span><span class="p">,</span> <span class="nv">windowFeatures</span><span class="p">:</span> <span class="kt">WKWindowFeatures</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">WKWebView</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)webView:decidePolicyForNavigationAction:preferences:decisionHandler:"></a>
+                    <a name="//apple_ref/swift/Method/webView(_:decidePolicyFor:preferences:decisionHandler:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)webView:decidePolicyForNavigationAction:preferences:decisionHandler:">webView(_:<wbr>decidePolicyFor:<wbr>preferences:<wbr>decisionHandler:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>系统父类方法 请使用decidePolicyForBlock回调实现</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@available</span><span class="p">(</span><span class="n">iOS</span> <span class="mf">13.0</span><span class="p">,</span> <span class="o">*</span><span class="p">)</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">webView</span><span class="p">(</span><span class="n">_</span> <span class="nv">webView</span><span class="p">:</span> <span class="kt">WKWebView</span><span class="p">,</span> <span class="n">decidePolicyFor</span> <span class="nv">navigationAction</span><span class="p">:</span> <span class="kt">WKNavigationAction</span><span class="p">,</span> <span class="nv">preferences</span><span class="p">:</span> <span class="kt">WKWebpagePreferences</span><span class="p">,</span> <span class="nv">decisionHandler</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">WKNavigationActionPolicy</span><span class="p">,</span> <span class="kt">WKWebpagePreferences</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@HGMSDK@objc(cs)NHGWebView(im)webView:authenticationChallenge:shouldAllowDeprecatedTLS:"></a>
+                    <a name="//apple_ref/swift/Method/webView(_:authenticationChallenge:shouldAllowDeprecatedTLS:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@HGMSDK@objc(cs)NHGWebView(im)webView:authenticationChallenge:shouldAllowDeprecatedTLS:">webView(_:<wbr>authenticationChallenge:<wbr>shouldAllowDeprecatedTLS:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>系统父类方法</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">webView</span><span class="p">(</span><span class="n">_</span> <span class="nv">webView</span><span class="p">:</span> <span class="kt">WKWebView</span><span class="p">,</span> <span class="n">authenticationChallenge</span> <span class="nv">challenge</span><span class="p">:</span> <span class="kt">URLAuthenticationChallenge</span><span class="p">,</span> <span class="n">shouldAllowDeprecatedTLS</span> <span class="nv">decisionHandler</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2022 <a class="link" href="" target="_blank" rel="noopener" rel="external">cn.gov.customs</a>. All rights reserved. (Last updated: 2022-04-06)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="noopener" rel="external">jazzy ♪♫ v0.14.0</a>, a <a class="link" href="https://realm.io" target="_blank" rel="noopener" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
