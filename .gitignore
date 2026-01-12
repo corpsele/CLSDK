@@ -1,0 +1,15 @@
+.DS_Store
+build
+build/
+CLSDKTest_OC/Build
+CLSDKTest_OC/Build/
+CLSDKTest_OC/DerivedData
+CLSDKTest_OC/DerivedData/
+CLMSDK.xcworkspace/xcshareddata
+CLMSDK.xcworkspace/xcuserdata
+CLMSDK.xcworkspace/xcuserdata
+CLMSDK.xcodeproj/xcuserdata
+CLMSDK.xcodeproj/xcshareddata
+CLMSDK.xcodeproj/project.pbxproj.bak
+Logs/
+ModuleCache.noindex/
