@@ -15,3 +15,7 @@ Logs/
 ModuleCache.noindex/
 corpsele_n.xcuserdatad
 Build/Intermediates.noindex
+CLSDK.xcodeproj/xcuserdata/corpsele_n.xcuserdatad
+CLSDKTestSwift/CLSDKTestSwift.xcodeproj/xcuserdata
+CLSDKTest_OC/CLSDKTest_OC.xcodeproj/xcuserdata
+CLSDKTest_OC/Pods/Pods.xcodeproj/xcuserdata
