@@ -25,6 +25,7 @@
 		5CCFA47626DDC9E900B91197 /* CLSDKTest_OCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCFA47526DDC9E900B91197 /* CLSDKTest_OCTests.m */; };
 		5CCFA48126DDC9E900B91197 /* CLSDKTest_OCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCFA48026DDC9E900B91197 /* CLSDKTest_OCUITests.m */; };
 		5CCFA49726DDD28100B91197 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CCFA49626DDD28100B91197 /* WebKit.framework */; };
+		7531F1A02F161889006B97BF /* SwinjectStoryboard in Frameworks */ = {isa = PBXBuildFile; productRef = 7531F19F2F161889006B97BF /* SwinjectStoryboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,76 +42,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 5CCFA45526DDC9E600B91197;
 			remoteInfo = CLSDKTest_OC;
-		};
-		75938AD12F14EE0800B191C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 75938AC42F14EE0700B191C5 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A4FA15D44DF6BAC7550EDEED10862AA3;
-			remoteInfo = AFNetworking;
-		};
-		75938AD32F14EE0800B191C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 75938AC42F14EE0700B191C5 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8B8FAB0D627B17EDE1366984278705D9;
-			remoteInfo = MBProgressHUD;
-		};
-		75938AD52F14EE0800B191C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 75938AC42F14EE0700B191C5 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F98BC038FF38E0685674F0A027FAF6C2;
-			remoteInfo = "Pods-CLSDKTest_OC";
-		};
-		75938AD72F14EE0800B191C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 75938AC42F14EE0700B191C5 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 03255384FE13C7A5795EAE5A6AF54371;
-			remoteInfo = "Pods-CLSDKTest_OC-CLSDKTest_OCTests";
-		};
-		75938AD92F14EE0800B191C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 75938AC42F14EE0700B191C5 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 490AC753C5C289D7B70E73B4E7512560;
-			remoteInfo = ReactiveCocoa;
-		};
-		75938ADB2F14EE0800B191C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 75938AC42F14EE0700B191C5 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 9621C6383F5733C35183B2DE886C7EC6;
-			remoteInfo = ReactiveObjC;
-		};
-		75938ADD2F14EE0800B191C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 75938AC42F14EE0700B191C5 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F87D9465992CEA630BE417FC7868C484;
-			remoteInfo = ReactiveSwift;
-		};
-		75938ADF2F14EE0800B191C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 75938AC42F14EE0700B191C5 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = E97D43C46A45EE515A4DA3AF94398441;
-			remoteInfo = SVProgressHUD;
-		};
-		75938AE12F14EE0800B191C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 75938AC42F14EE0700B191C5 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 55E0AFD333353D71ACC2207149E879D6;
-			remoteInfo = Toast;
-		};
-		75938AE32F14EE0800B191C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 75938AC42F14EE0700B191C5 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8E1DF7515BF8FF9F244D49B6C271AAFE;
-			remoteInfo = YJProgressHUD;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -158,7 +89,6 @@
 		5CCFA48226DDC9E900B91197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CCFA49626DDD28100B91197 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		68B3B760C0386ECF8E04BBCA /* Pods-CLSDKTest_OC-CLSDKTest_OCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLSDKTest_OC-CLSDKTest_OCTests.debug.xcconfig"; path = "Target Support Files/Pods-CLSDKTest_OC-CLSDKTest_OCTests/Pods-CLSDKTest_OC-CLSDKTest_OCTests.debug.xcconfig"; sourceTree = "<group>"; };
-		75938AC42F14EE0700B191C5 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
 		8A736DA380EC6B13E08D29B4 /* Pods_CLSDKTest_OC_CLSDKTest_OCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CLSDKTest_OC_CLSDKTest_OCTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0BAF94BB49FC0083A44E447 /* Pods-CLSDKTest_OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLSDKTest_OC.release.xcconfig"; path = "Target Support Files/Pods-CLSDKTest_OC/Pods-CLSDKTest_OC.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -172,6 +102,7 @@
 				5C2EA8DE26EB384900331C57 /* QuickLook.framework in Frameworks */,
 				5C1A058C277C380B00F00C99 /* SAMKeychain.framework in Frameworks */,
 				5CAC23D0277C0BA5007A4451 /* Pods_CLSDKTest_OC.framework in Frameworks */,
+				7531F1A02F161889006B97BF /* SwinjectStoryboard in Frameworks */,
 				5CCFA49726DDD28100B91197 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,7 +147,6 @@
 		5CCFA44D26DDC9E600B91197 = {
 			isa = PBXGroup;
 			children = (
-				75938AC42F14EE0700B191C5 /* Pods.xcodeproj */,
 				5CA7025C26E05978006CC32A /* CLSDKTest_Swift */,
 				5CCFA45826DDC9E600B91197 /* CLSDKTest_OC */,
 				5CCFA47426DDC9E900B91197 /* CLSDKTest_OCTests */,
@@ -286,23 +216,6 @@
 				8A736DA380EC6B13E08D29B4 /* Pods_CLSDKTest_OC_CLSDKTest_OCTests.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		75938AC52F14EE0700B191C5 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				75938AD22F14EE0800B191C5 /* AFNetworking.framework */,
-				75938AD42F14EE0800B191C5 /* MBProgressHUD.framework */,
-				75938AD62F14EE0800B191C5 /* Pods_CLSDKTest_OC.framework */,
-				75938AD82F14EE0800B191C5 /* Pods_CLSDKTest_OC_CLSDKTest_OCTests.framework */,
-				75938ADA2F14EE0800B191C5 /* ReactiveCocoa.framework */,
-				75938ADC2F14EE0800B191C5 /* ReactiveObjC.framework */,
-				75938ADE2F14EE0800B191C5 /* ReactiveSwift.framework */,
-				75938AE02F14EE0800B191C5 /* SVProgressHUD.framework */,
-				75938AE22F14EE0800B191C5 /* Toast.framework */,
-				75938AE42F14EE0800B191C5 /* YJProgressHUD.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -397,14 +310,11 @@
 				Base,
 			);
 			mainGroup = 5CCFA44D26DDC9E600B91197;
+			packageReferences = (
+				7531F19E2F161889006B97BF /* XCRemoteSwiftPackageReference "SwinjectStoryboard" */,
+			);
 			productRefGroup = 5CCFA45726DDC9E600B91197 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 75938AC52F14EE0700B191C5 /* Products */;
-					ProjectRef = 75938AC42F14EE0700B191C5 /* Pods.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				5CCFA45526DDC9E600B91197 /* CLSDKTest_OC */,
@@ -413,79 +323,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		75938AD22F14EE0800B191C5 /* AFNetworking.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = AFNetworking.framework;
-			remoteRef = 75938AD12F14EE0800B191C5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		75938AD42F14EE0800B191C5 /* MBProgressHUD.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = MBProgressHUD.framework;
-			remoteRef = 75938AD32F14EE0800B191C5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		75938AD62F14EE0800B191C5 /* Pods_CLSDKTest_OC.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Pods_CLSDKTest_OC.framework;
-			remoteRef = 75938AD52F14EE0800B191C5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		75938AD82F14EE0800B191C5 /* Pods_CLSDKTest_OC_CLSDKTest_OCTests.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Pods_CLSDKTest_OC_CLSDKTest_OCTests.framework;
-			remoteRef = 75938AD72F14EE0800B191C5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		75938ADA2F14EE0800B191C5 /* ReactiveCocoa.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ReactiveCocoa.framework;
-			remoteRef = 75938AD92F14EE0800B191C5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		75938ADC2F14EE0800B191C5 /* ReactiveObjC.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ReactiveObjC.framework;
-			remoteRef = 75938ADB2F14EE0800B191C5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		75938ADE2F14EE0800B191C5 /* ReactiveSwift.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ReactiveSwift.framework;
-			remoteRef = 75938ADD2F14EE0800B191C5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		75938AE02F14EE0800B191C5 /* SVProgressHUD.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SVProgressHUD.framework;
-			remoteRef = 75938ADF2F14EE0800B191C5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		75938AE22F14EE0800B191C5 /* Toast.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Toast.framework;
-			remoteRef = 75938AE12F14EE0800B191C5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		75938AE42F14EE0800B191C5 /* YJProgressHUD.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = YJProgressHUD.framework;
-			remoteRef = 75938AE32F14EE0800B191C5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		5CCFA45426DDC9E600B91197 /* Resources */ = {
@@ -804,7 +641,7 @@
 					"${PODS_CONFIGURATION_BUILD_DIR}/SVProgressHUD",
 				);
 				INFOPLIST_FILE = CLSDKTest_OC/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -864,7 +701,7 @@
 					"$(PROJECT_DIR)/CLSDKTest_OC/third",
 				);
 				INFOPLIST_FILE = CLSDKTest_OC/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1027,6 +864,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7531F19E2F161889006B97BF /* XCRemoteSwiftPackageReference "SwinjectStoryboard" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/SwinjectStoryboard";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7531F19F2F161889006B97BF /* SwinjectStoryboard */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7531F19E2F161889006B97BF /* XCRemoteSwiftPackageReference "SwinjectStoryboard" */;
+			productName = SwinjectStoryboard;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5CCFA44E26DDC9E600B91197 /* Project object */;
 }

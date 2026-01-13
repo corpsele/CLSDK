@@ -18,5 +18,7 @@ FOUNDATION_EXPORT const unsigned char CLSDKVersionString[];
 #import <CLSDK/dsbridge.h>
 #import "NHGDSDownloadPlugin.h"
 #import "UIDevice+Hardware.h"
+//#import <Alamofire/Alamofire-Swift.h>
 //#import "IUMQRCodeViewController.h"
 //#import "HGCommonMethod.h"
+

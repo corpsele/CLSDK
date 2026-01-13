@@ -8,6 +8,7 @@
 // TODO: **请在项目设置中Build Phases - 添加Copy File Script - 选择frameworks - 选择CLSDK.xcframework**
 
 import UIKit
+import Alamofire
 
 /// 封装DSWebView控件 公开插件方法。
 /// 详细参数定义对照《公共组件接口文档》，请联系所要。
@@ -631,6 +632,7 @@ public class NHGWebView: DWKWebView, WKNavigationDelegate {
     @objc public func setDeviceInfoCallBack(_ callBack: (([String: Any]) -> ())?) {
         self.getDeviceInfoCallBack = callBack
         self.deviceInfo.getDeviceInfoCallBack = self.getDeviceInfoCallBack
+        
     }
     
     // MARK: 获取位置信息回调

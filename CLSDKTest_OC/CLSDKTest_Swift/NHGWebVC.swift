@@ -32,6 +32,7 @@ import ReactiveCocoa
 import YJProgressHUD
 import SVProgressHUD
 
+
 class NHGWebVC: UIViewController {
 
     override func viewDidLoad() {

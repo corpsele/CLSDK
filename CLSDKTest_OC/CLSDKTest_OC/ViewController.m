@@ -17,6 +17,8 @@
 #import <YJProgressHUD.h>
 #import <ReactiveObjC.h>
 #import "CLSDKTest_OC-Swift.h"
+#import "CLSDKTest_OC-Bridging-Header.h"
+
 
 @interface ViewController ()
 

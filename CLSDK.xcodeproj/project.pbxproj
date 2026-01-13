@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00FBAF0D0C242239E65A7D2D /* Pods_CLSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9340236608D6B20640866CA8 /* Pods_CLSDK.framework */; };
 		09F62E9473A484161CCE4F14 /* Pods_CLSDK_CLSDKTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 357345081F69FDA95FB2B257 /* Pods_CLSDK_CLSDKTests.framework */; };
 		5C1A262F26DCC6A10078254B /* CLSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C1A262526DCC6A00078254B /* CLSDK.framework */; };
 		5C1A263426DCC6A10078254B /* CLSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1A263326DCC6A10078254B /* CLSDKTests.swift */; };
@@ -625,6 +626,8 @@
 		64F682632BF6F4F200129CE6 /* HGApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F682622BF6F4F200129CE6 /* HGApp.swift */; };
 		64F682652BF6F78400129CE6 /* HGLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F682642BF6F78400129CE6 /* HGLogin.swift */; };
 		64F682672BF6F7EA00129CE6 /* HGSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F682662BF6F7E900129CE6 /* HGSystem.swift */; };
+		7531F1BB2F162E83006B97BF /* CLSDK-OC-bridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 7531F1BA2F162E83006B97BF /* CLSDK-OC-bridge.h */; };
+		7531F1BD2F16336A006B97BF /* Imports.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7531F1BC2F163366006B97BF /* Imports.swift */; };
 		EBF2D51928D9B0450053D13D /* HGCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D51828D9B0450053D13D /* HGCollection.swift */; };
 /* End PBXBuildFile section */
 
@@ -640,6 +643,7 @@
 
 /* Begin PBXFileReference section */
 		357345081F69FDA95FB2B257 /* Pods_CLSDK_CLSDKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CLSDK_CLSDKTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		592364F6B4C3B3B8E7875688 /* Pods-CLSDK-CLSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLSDK-CLSDKTests.release.xcconfig"; path = "Target Support Files/Pods-CLSDK-CLSDKTests/Pods-CLSDK-CLSDKTests.release.xcconfig"; sourceTree = "<group>"; };
 		5C1A262526DCC6A00078254B /* CLSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CLSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C1A262826DCC6A00078254B /* CLSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLSDK.h; sourceTree = "<group>"; };
 		5C1A262926DCC6A00078254B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -1310,8 +1314,14 @@
 		64F682622BF6F4F200129CE6 /* HGApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HGApp.swift; sourceTree = "<group>"; };
 		64F682642BF6F78400129CE6 /* HGLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HGLogin.swift; sourceTree = "<group>"; };
 		64F682662BF6F7E900129CE6 /* HGSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HGSystem.swift; sourceTree = "<group>"; };
+		7531F1BA2F162E83006B97BF /* CLSDK-OC-bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CLSDK-OC-bridge.h"; sourceTree = "<group>"; };
+		7531F1BC2F163366006B97BF /* Imports.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Imports.swift; sourceTree = "<group>"; };
+		7531F1BE2F163556006B97BF /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9340236608D6B20640866CA8 /* Pods_CLSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CLSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C9F4F5ECEC426411D8B81DD /* Pods-CLSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLSDK.release.xcconfig"; path = "Target Support Files/Pods-CLSDK/Pods-CLSDK.release.xcconfig"; sourceTree = "<group>"; };
+		9E9B2AFCB3491597D7D2F299 /* Pods-CLSDK-CLSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLSDK-CLSDKTests.debug.xcconfig"; path = "Target Support Files/Pods-CLSDK-CLSDKTests/Pods-CLSDK-CLSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EBF2D51828D9B0450053D13D /* HGCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HGCollection.swift; sourceTree = "<group>"; };
+		F9D2A5A97BD3BD9C6AE47FF7 /* Pods-CLSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLSDK.debug.xcconfig"; path = "Target Support Files/Pods-CLSDK/Pods-CLSDK.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1337,6 +1347,7 @@
 				5CA4289926EF395500B3E2AA /* SystemConfiguration.framework in Frameworks */,
 				5CA4289726EF394800B3E2AA /* AVFoundation.framework in Frameworks */,
 				5CA4289526EF393500B3E2AA /* libz.tbd in Frameworks */,
+				00FBAF0D0C242239E65A7D2D /* Pods_CLSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1400,6 +1411,7 @@
 				5C1A263226DCC6A10078254B /* CLSDKTests */,
 				5C1A262626DCC6A00078254B /* Products */,
 				5CCFA49326DDD20400B91197 /* Frameworks */,
+				C366ADEB481260F4EB308E14 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1582,7 +1594,9 @@
 		5C58FA1427449DFD0033BB73 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				7531F1BC2F163366006B97BF /* Imports.swift */,
 				5C58FA1527449E1B0033BB73 /* HDMSDK.xcassets */,
+				7531F1BA2F162E83006B97BF /* CLSDK-OC-bridge.h */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -2727,6 +2741,7 @@
 		5CCFA49326DDD20400B91197 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7531F1BE2F163556006B97BF /* Alamofire.framework */,
 				5CBA01A027CDF81000363FED /* ReactiveCocoa.framework */,
 				5CBA01A127CDF81000363FED /* ReactiveSwift.framework */,
 				5C832DCE2766F5F500BBAC2F /* libresolv.tbd */,
@@ -2805,6 +2820,17 @@
 				5CEAFBCA271D1B5700A68863 /* NHGDSDownloadPlugin.h */,
 			);
 			path = HGFile;
+			sourceTree = "<group>";
+		};
+		C366ADEB481260F4EB308E14 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9D2A5A97BD3BD9C6AE47FF7 /* Pods-CLSDK.debug.xcconfig */,
+				9C9F4F5ECEC426411D8B81DD /* Pods-CLSDK.release.xcconfig */,
+				9E9B2AFCB3491597D7D2F299 /* Pods-CLSDK-CLSDKTests.debug.xcconfig */,
+				592364F6B4C3B3B8E7875688 /* Pods-CLSDK-CLSDKTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2957,6 +2983,7 @@
 				5C832DFA2766F83F00BBAC2F /* NSDictionary_JSONExtensions.h in Headers */,
 				5CA4287226EF2C5A00B3E2AA /* MASViewConstraint.h in Headers */,
 				5C832CC22766E40800BBAC2F /* UIViewController+JKRecursiveDescription.h in Headers */,
+				7531F1BB2F162E83006B97BF /* CLSDK-OC-bridge.h in Headers */,
 				5C832DBF2766E53F00BBAC2F /* IUMResourceMacro.h in Headers */,
 				5C58FA1A27449EE50033BB73 /* UIAlertController+Window.h in Headers */,
 				5C832D612766E40800BBAC2F /* NSObject+JKBlocks.h in Headers */,
@@ -3100,6 +3127,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C1A263926DCC6A10078254B /* Build configuration list for PBXNativeTarget "CLSDK" */;
 			buildPhases = (
+				BE743E2C6A5454D11E312662 /* [CP] Check Pods Manifest.lock */,
 				5C1A262026DCC6A00078254B /* Headers */,
 				5C1A262126DCC6A00078254B /* Sources */,
 				5C1A262226DCC6A00078254B /* Frameworks */,
@@ -3235,6 +3263,28 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CLSDK-CLSDKTests/Pods-CLSDK-CLSDKTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		BE743E2C6A5454D11E312662 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CLSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		E87FFC52E4E8947A6F11879C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -3286,6 +3336,7 @@
 				5C832CA52766E40800BBAC2F /* UIDevice+JKPasscodeStatus.m in Sources */,
 				5C832CA02766E40800BBAC2F /* UIDevice+JKHardware.m in Sources */,
 				5C832D292766E40800BBAC2F /* NSString+JKHash.m in Sources */,
+				7531F1BD2F16336A006B97BF /* Imports.swift in Sources */,
 				5C832D5D2766E40800BBAC2F /* NSObject+JKReflection.m in Sources */,
 				5C832D5E2766E40800BBAC2F /* NSObject+JKGCD.m in Sources */,
 				5C832C5E2766E40700BBAC2F /* UIButton+JKImagePosition.m in Sources */,
@@ -3609,10 +3660,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (
-					"$(ARCHS_STANDARD)",
-					armv7s,
-				);
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -3677,10 +3725,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (
-					"$(ARCHS_STANDARD)",
-					armv7s,
-				);
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -3738,13 +3783,10 @@
 		};
 		5C1A263A26DCC6A10078254B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9D2A5A97BD3BD9C6AE47FF7 /* Pods-CLSDK.debug.xcconfig */;
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = (
-					"$(ARCHS_STANDARD)",
-					"\"arm64 x86_64 armv7s i386\"",
-				);
+				ARCHS = "$(ARCHS_STANDARD)";
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -3767,7 +3809,7 @@
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = CLSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3797,13 +3839,10 @@
 		};
 		5C1A263B26DCC6A10078254B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C9F4F5ECEC426411D8B81DD /* Pods-CLSDK.release.xcconfig */;
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = (
-					"$(ARCHS_STANDARD)",
-					"\"arm64 x86_64 armv7s i386\"",
-				);
+				ARCHS = "$(ARCHS_STANDARD)";
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -3826,7 +3865,7 @@
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = CLSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3855,6 +3894,7 @@
 		};
 		5C1A263D26DCC6A10078254B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E9B2AFCB3491597D7D2F299 /* Pods-CLSDK-CLSDKTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -3873,6 +3913,7 @@
 		};
 		5C1A263E26DCC6A10078254B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 592364F6B4C3B3B8E7875688 /* Pods-CLSDK-CLSDKTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

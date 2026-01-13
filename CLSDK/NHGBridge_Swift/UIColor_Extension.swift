@@ -8,10 +8,12 @@
 import Foundation
 import UIKit
 
+@objc
 extension UIColor {
     
+    @objc
     // Hex String -> UIColor
-     convenience init(hexString: String) {
+    convenience init(hexString: String) {
         let hexString = hexString.trimmingCharacters(in: .whitespacesAndNewlines)
         let scanner = Scanner(string: hexString)
         
@@ -34,6 +36,7 @@ extension UIColor {
         self.init(red: red, green: green, blue: blue, alpha: 1)
     }
     
+    @objc
     // UIColor -> Hex String
     var hexString: String? {
         var red: CGFloat = 0

@@ -5,65 +5,18 @@
       location = "group:CLSDK.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:CLSDKTestSwift/CLSDKTestSwift.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:CLSDKTest_OC/CLSDKTest_OC.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:CLSDKTest_OC/Pods/Pods.xcodeproj">
    </FileRef>
-   <Group
-      location = "group:CLSDKTestSwift"
-      name = "CLSDKTestSwift">
-      <Group
-         location = "group:CLSDKTestSwift"
-         name = "CLSDKTestSwift">
-         <FileRef
-            location = "group:AppDelegate.swift">
-         </FileRef>
-         <FileRef
-            location = "group:Assets.xcassets">
-         </FileRef>
-         <Group
-            location = "group:Base.lproj"
-            name = "Base.lproj">
-            <FileRef
-               location = "group:LaunchScreen.storyboard">
-            </FileRef>
-            <FileRef
-               location = "group:Main.storyboard">
-            </FileRef>
-         </Group>
-         <FileRef
-            location = "group:CLSDKTestSwift.xcdatamodeld">
-         </FileRef>
-         <FileRef
-            location = "group:Info.plist">
-         </FileRef>
-         <FileRef
-            location = "group:SceneDelegate.swift">
-         </FileRef>
-         <FileRef
-            location = "group:ViewController.swift">
-         </FileRef>
-      </Group>
-      <FileRef
-         location = "group:CLSDKTestSwift.xcodeproj">
-      </FileRef>
-      <Group
-         location = "group:CLSDKTestSwiftTests"
-         name = "CLSDKTestSwiftTests">
-         <FileRef
-            location = "group:CLSDKTestSwiftTests.swift">
-         </FileRef>
-      </Group>
-      <Group
-         location = "group:CLSDKTestSwiftUITests"
-         name = "CLSDKTestSwiftUITests">
-         <FileRef
-            location = "group:CLSDKTestSwiftUITests.swift">
-         </FileRef>
-         <FileRef
-            location = "group:CLSDKTestSwiftUITestsLaunchTests.swift">
-         </FileRef>
-      </Group>
-   </Group>
+   <FileRef
+      location = "group:CLSDKTestSwift/CLSDKTestSwift.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
 </Workspace>
