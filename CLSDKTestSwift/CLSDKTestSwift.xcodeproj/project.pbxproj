@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7531F19D2F16183E006B97BF /* SwinjectStoryboard in Frameworks */ = {isa = PBXBuildFile; productRef = 7531F19C2F16183E006B97BF /* SwinjectStoryboard */; };
+		753A374B2F18D440005BE5C4 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 753A374A2F18D440005BE5C4 /* SwiftSoup */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7531F19D2F16183E006B97BF /* SwinjectStoryboard in Frameworks */,
+				753A374B2F18D440005BE5C4 /* SwiftSoup in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +133,7 @@
 			name = CLSDKTestSwift;
 			packageProductDependencies = (
 				7531F19C2F16183E006B97BF /* SwinjectStoryboard */,
+				753A374A2F18D440005BE5C4 /* SwiftSoup */,
 			);
 			productName = CLSDKTestSwift;
 			productReference = 75938AEE2F14F3A900B191C5 /* CLSDKTestSwift.app */;
@@ -216,6 +219,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				7531F19B2F16183E006B97BF /* XCRemoteSwiftPackageReference "SwinjectStoryboard" */,
+				753A37492F18D440005BE5C4 /* XCRemoteSwiftPackageReference "SwiftSoup" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 75938AEF2F14F3A900B191C5 /* Products */;
@@ -610,6 +614,14 @@
 				minimumVersion = 2.2.3;
 			};
 		};
+		753A37492F18D440005BE5C4 /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.11.3;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -617,6 +629,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 7531F19B2F16183E006B97BF /* XCRemoteSwiftPackageReference "SwinjectStoryboard" */;
 			productName = SwinjectStoryboard;
+		};
+		753A374A2F18D440005BE5C4 /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 753A37492F18D440005BE5C4 /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

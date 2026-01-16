@@ -12,6 +12,8 @@ Pod::Spec.new do |s|
   # 声明这是一个二进制的 Framework
   s.vendored_frameworks = 'CLSDK.framework'
 
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 arm64' }
+
   # 【关键】声明依赖。
   # 当 App pod 'MyFramework' 时，它会自动 pod 'Masonry'
   # s.dependency 'Masonry', '~> 1.1.0'
