@@ -24,9 +24,9 @@ let package = Package(
     targets: [
         .target(
             name: "CLSDK",
-            dependencies: [
+//            dependencies: [
 //                .product(name: "AsyncAlgorithms", package: "swift-async-algorithms")
-            ],
+//            ],
             path: "Sources/CLSDK",
             resources: [
                 .process("Resources")
