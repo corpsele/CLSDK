@@ -8,13 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		576C2B35961C5B493DAAD36F /* Pods_CLSDKTest_OC_CLSDKTest_OCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A736DA380EC6B13E08D29B4 /* Pods_CLSDKTest_OC_CLSDKTest_OCTests.framework */; };
-		5C1A058C277C380B00F00C99 /* SAMKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CAC23EA277C324F007A4451 /* SAMKeychain.framework */; };
-		5C1A058D277C380B00F00C99 /* SAMKeychain.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5CAC23EA277C324F007A4451 /* SAMKeychain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5C2EA8DC26EB37FE00331C57 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C2EA8DB26EB37FE00331C57 /* Common.m */; };
 		5C2EA8DE26EB384900331C57 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C2EA8DD26EB384900331C57 /* QuickLook.framework */; };
 		5C81EC8126DF253600511B22 /* NHGWebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C81EC8026DF253600511B22 /* NHGWebVC.swift */; };
 		5CAC23CC277C0BA0007A4451 /* CLSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CAC23CB277C0BA0007A4451 /* CLSDK.framework */; };
-		5CAC23D0277C0BA5007A4451 /* Pods_CLSDKTest_OC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CAC23CF277C0BA5007A4451 /* Pods_CLSDKTest_OC.framework */; };
 		5CAC23DF277C0EFC007A4451 /* CLSDK.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5CAC23CB277C0BA0007A4451 /* CLSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5CCFA45B26DDC9E600B91197 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCFA45A26DDC9E600B91197 /* AppDelegate.m */; };
 		5CCFA46126DDC9E600B91197 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCFA46026DDC9E600B91197 /* ViewController.m */; };
@@ -26,6 +23,9 @@
 		5CCFA48126DDC9E900B91197 /* CLSDKTest_OCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCFA48026DDC9E900B91197 /* CLSDKTest_OCUITests.m */; };
 		5CCFA49726DDD28100B91197 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CCFA49626DDD28100B91197 /* WebKit.framework */; };
 		7531F1A02F161889006B97BF /* SwinjectStoryboard in Frameworks */ = {isa = PBXBuildFile; productRef = 7531F19F2F161889006B97BF /* SwinjectStoryboard */; };
+		75D222DD2F1DB342000E9039 /* OCApplePayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D222DC2F1DB342000E9039 /* OCApplePayVC.m */; };
+		75D222E72F1DD447000E9039 /* Pods_CLSDKTest_OC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D222E62F1DD447000E9039 /* Pods_CLSDKTest_OC.framework */; };
+		75D222E82F1DD447000E9039 /* Pods_CLSDKTest_OC.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 75D222E62F1DD447000E9039 /* Pods_CLSDKTest_OC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				5C1A058D277C380B00F00C99 /* SAMKeychain.framework in CopyFiles */,
 				5CAC23DF277C0EFC007A4451 /* CLSDK.framework in CopyFiles */,
+				75D222E82F1DD447000E9039 /* Pods_CLSDKTest_OC.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +89,12 @@
 		5CCFA48226DDC9E900B91197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CCFA49626DDD28100B91197 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		68B3B760C0386ECF8E04BBCA /* Pods-CLSDKTest_OC-CLSDKTest_OCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLSDKTest_OC-CLSDKTest_OCTests.debug.xcconfig"; path = "Target Support Files/Pods-CLSDKTest_OC-CLSDKTest_OCTests/Pods-CLSDKTest_OC-CLSDKTest_OCTests.debug.xcconfig"; sourceTree = "<group>"; };
+		75D222DB2F1DB342000E9039 /* OCApplePayVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCApplePayVC.h; sourceTree = "<group>"; };
+		75D222DC2F1DB342000E9039 /* OCApplePayVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCApplePayVC.m; sourceTree = "<group>"; };
+		75D222DE2F1DB426000E9039 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		75D222E42F1DD40A000E9039 /* Pods_CLSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_CLSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75D222E62F1DD447000E9039 /* Pods_CLSDKTest_OC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_CLSDKTest_OC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75D222E92F1DD455000E9039 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A736DA380EC6B13E08D29B4 /* Pods_CLSDKTest_OC_CLSDKTest_OCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CLSDKTest_OC_CLSDKTest_OCTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0BAF94BB49FC0083A44E447 /* Pods-CLSDKTest_OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLSDKTest_OC.release.xcconfig"; path = "Target Support Files/Pods-CLSDKTest_OC/Pods-CLSDKTest_OC.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -100,8 +106,7 @@
 			files = (
 				5CAC23CC277C0BA0007A4451 /* CLSDK.framework in Frameworks */,
 				5C2EA8DE26EB384900331C57 /* QuickLook.framework in Frameworks */,
-				5C1A058C277C380B00F00C99 /* SAMKeychain.framework in Frameworks */,
-				5CAC23D0277C0BA5007A4451 /* Pods_CLSDKTest_OC.framework in Frameworks */,
+				75D222E72F1DD447000E9039 /* Pods_CLSDKTest_OC.framework in Frameworks */,
 				7531F1A02F161889006B97BF /* SwinjectStoryboard in Frameworks */,
 				5CCFA49726DDD28100B91197 /* WebKit.framework in Frameworks */,
 			);
@@ -183,6 +188,8 @@
 				5C2EA8D926EB37D100331C57 /* Prefix.h */,
 				5C2EA8DA26EB37FE00331C57 /* Common.h */,
 				5C2EA8DB26EB37FE00331C57 /* Common.m */,
+				75D222DB2F1DB342000E9039 /* OCApplePayVC.h */,
+				75D222DC2F1DB342000E9039 /* OCApplePayVC.m */,
 			);
 			path = CLSDKTest_OC;
 			sourceTree = "<group>";
@@ -208,6 +215,10 @@
 		5CCFA48E26DDCADF00B91197 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				75D222E92F1DD455000E9039 /* Alamofire.framework */,
+				75D222E62F1DD447000E9039 /* Pods_CLSDKTest_OC.framework */,
+				75D222E42F1DD40A000E9039 /* Pods_CLSDK.framework */,
+				75D222DE2F1DB426000E9039 /* StoreKit.framework */,
 				5CAC23EA277C324F007A4451 /* SAMKeychain.framework */,
 				5CAC23CF277C0BA5007A4451 /* Pods_CLSDKTest_OC.framework */,
 				5CAC23CB277C0BA0007A4451 /* CLSDK.framework */,
@@ -382,13 +393,9 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-CLSDKTest_OC-CLSDKTest_OCTests/Pods-CLSDKTest_OC-CLSDKTest_OCTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-CLSDKTest_OC-CLSDKTest_OCTests/Pods-CLSDKTest_OC-CLSDKTest_OCTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -425,13 +432,9 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-CLSDKTest_OC/Pods-CLSDKTest_OC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-CLSDKTest_OC/Pods-CLSDKTest_OC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -447,6 +450,7 @@
 			files = (
 				5CCFA46126DDC9E600B91197 /* ViewController.m in Sources */,
 				5C81EC8126DF253600511B22 /* NHGWebVC.swift in Sources */,
+				75D222DD2F1DB342000E9039 /* OCApplePayVC.m in Sources */,
 				5C2EA8DC26EB37FE00331C57 /* Common.m in Sources */,
 				5CCFA45B26DDC9E600B91197 /* AppDelegate.m in Sources */,
 				5CCFA46C26DDC9E800B91197 /* main.m in Sources */,
@@ -629,16 +633,10 @@
 				ENABLE_BITCODE = NO;
 				EXCLUDED_ARCHS = "";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(PROJECT_DIR)",
-					"${PODS_CONFIGURATION_BUILD_DIR}/ProgressHUD",
-					"${PODS_CONFIGURATION_BUILD_DIR}/Toast",
-					"${PODS_CONFIGURATION_BUILD_DIR}/ReactiveCocoa",
-					"${PODS_CONFIGURATION_BUILD_DIR}/ReactiveSwift",
-					"${PODS_CONFIGURATION_BUILD_DIR}/ReactiveObjC",
-					"${PODS_CONFIGURATION_BUILD_DIR}/YJProgressHUD",
-					"${PODS_CONFIGURATION_BUILD_DIR}/MBProgressHUD",
-					"${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking",
-					"${PODS_CONFIGURATION_BUILD_DIR}/SVProgressHUD",
+					"$(inherited)",
+					"$(PROJECT_DIR)/CLSDK/NHGBridge_OC/Third",
+					"$(PROJECT_DIR)/CLSDK/NHGBridge_OC/Third/SignSDK",
+					"$(PROJECT_DIR)/CLSDK/NHGBridge_OC/Third/ReactiveSwift",
 				);
 				INFOPLIST_FILE = CLSDKTest_OC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -690,16 +688,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "Apple Development: corpsele@aliyun.com (2SC9946FP9)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SL6B57AC84;
 				ENABLE_BITCODE = NO;
 				EXCLUDED_ARCHS = "";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PROJECT_DIR)",
-					"${PODS_CONFIGURATION_BUILD_DIR}/ProgressHUD",
-					"$(PROJECT_DIR)/CLSDKTest_OC/third",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = CLSDKTest_OC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (

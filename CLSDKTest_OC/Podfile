@@ -1,3 +1,4 @@
+source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
@@ -12,6 +13,16 @@ target 'CLSDKTest_OC' do
   pod 'ReactiveObjC'
   pod 'SVProgressHUD'
   pod 'AFNetworking'
+  pod 'Alamofire'
+
+  post_install do |installer|
+    installer.pods_project.targets.each do |target|
+      target.build_configurations.each do |config|
+        # 这里可以指定统一的最低版本，比如 12.0
+        config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '11.0'
+      end
+    end
+  end
 
   target 'CLSDKTest_OCTests' do
     # Pods for testing

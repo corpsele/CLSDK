@@ -14,6 +14,7 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
+  - Alamofire (5.11.0)
   - MBProgressHUD (1.2.0)
   - ReactiveCocoa (12.0.0):
     - ReactiveSwift (~> 7.0)
@@ -26,6 +27,7 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
+  - Alamofire
   - ReactiveCocoa
   - ReactiveObjC
   - SVProgressHUD
@@ -33,6 +35,8 @@ DEPENDENCIES:
   - YJProgressHUD
 
 SPEC REPOS:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - Alamofire
   trunk:
     - AFNetworking
     - MBProgressHUD
@@ -45,6 +49,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
+  Alamofire: bd5e7b23a1a750975288482c1831d71e74415f86
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   ReactiveCocoa: 5d10386f0ce09f922006efbf784881c5fade27c5
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
@@ -53,6 +58,6 @@ SPEC CHECKSUMS:
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
   YJProgressHUD: 003d98932878a65bee702893cc66771dddde4d08
 
-PODFILE CHECKSUM: 5b8da51f42f42232ef1ab8e712a6b4e33e4089b8
+PODFILE CHECKSUM: 3952647172f52d4038b5146fa52369b6979fb36a
 
 COCOAPODS: 1.16.2

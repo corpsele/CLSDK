@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00FBAF0D0C242239E65A7D2D /* Pods_CLSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9340236608D6B20640866CA8 /* Pods_CLSDK.framework */; };
 		09F62E9473A484161CCE4F14 /* Pods_CLSDK_CLSDKTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 357345081F69FDA95FB2B257 /* Pods_CLSDK_CLSDKTests.framework */; };
 		5C1A262F26DCC6A10078254B /* CLSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C1A262526DCC6A00078254B /* CLSDK.framework */; };
 		5C1A263426DCC6A10078254B /* CLSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1A263326DCC6A10078254B /* CLSDKTests.swift */; };
@@ -573,7 +572,6 @@
 		5CA428A926EF39DA00B3E2AA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA428A826EF39DA00B3E2AA /* QuartzCore.framework */; };
 		5CA428AB26EF39E600B3E2AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA428AA26EF39E600B3E2AA /* CoreGraphics.framework */; };
 		5CA428AD26EF39F500B3E2AA /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA428AC26EF39F500B3E2AA /* libc++.tbd */; };
-		5CAC23E7277C11C7007A4451 /* SAMKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CAC23E5277C11C6007A4451 /* SAMKeychain.framework */; };
 		5CCFA44C26DDBE9D00B91197 /* NHGWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCFA44B26DDBE9D00B91197 /* NHGWebView.swift */; };
 		5CE8D5772754B6A8003202A2 /* NHGWebView_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE8D5762754B6A8003202A2 /* NHGWebView_Extension.swift */; };
 		5CE8D5B32754C81C003202A2 /* UIColor_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE8D5B22754C81C003202A2 /* UIColor_Extension.swift */; };
@@ -628,6 +626,10 @@
 		64F682672BF6F7EA00129CE6 /* HGSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F682662BF6F7E900129CE6 /* HGSystem.swift */; };
 		7531F1BB2F162E83006B97BF /* CLSDK-OC-bridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 7531F1BA2F162E83006B97BF /* CLSDK-OC-bridge.h */; };
 		7531F1BD2F16336A006B97BF /* Imports.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7531F1BC2F163366006B97BF /* Imports.swift */; };
+		75D222E12F1DD3F8000E9039 /* Pods_CLSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D222E02F1DD3F8000E9039 /* Pods_CLSDK.framework */; };
+		75D222E22F1DD3F8000E9039 /* Pods_CLSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 75D222E02F1DD3F8000E9039 /* Pods_CLSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		75D222EE2F1DDB6B000E9039 /* SAMKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CAC23E5277C11C6007A4451 /* SAMKeychain.framework */; };
+		75D222EF2F1DDB6B000E9039 /* SAMKeychain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5CAC23E5277C11C6007A4451 /* SAMKeychain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		EBF2D51928D9B0450053D13D /* HGCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2D51828D9B0450053D13D /* HGCollection.swift */; };
 /* End PBXBuildFile section */
 
@@ -640,6 +642,21 @@
 			remoteInfo = CLSDK;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		75D222E32F1DD3F8000E9039 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				75D222EF2F1DDB6B000E9039 /* SAMKeychain.framework in Embed Frameworks */,
+				75D222E22F1DD3F8000E9039 /* Pods_CLSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		357345081F69FDA95FB2B257 /* Pods_CLSDK_CLSDKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CLSDK_CLSDKTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1317,6 +1334,7 @@
 		7531F1BA2F162E83006B97BF /* CLSDK-OC-bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CLSDK-OC-bridge.h"; sourceTree = "<group>"; };
 		7531F1BC2F163366006B97BF /* Imports.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Imports.swift; sourceTree = "<group>"; };
 		7531F1BE2F163556006B97BF /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75D222E02F1DD3F8000E9039 /* Pods_CLSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_CLSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9340236608D6B20640866CA8 /* Pods_CLSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CLSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C9F4F5ECEC426411D8B81DD /* Pods-CLSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLSDK.release.xcconfig"; path = "Target Support Files/Pods-CLSDK/Pods-CLSDK.release.xcconfig"; sourceTree = "<group>"; };
 		9E9B2AFCB3491597D7D2F299 /* Pods-CLSDK-CLSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLSDK-CLSDKTests.debug.xcconfig"; path = "Target Support Files/Pods-CLSDK-CLSDKTests/Pods-CLSDK-CLSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -1330,13 +1348,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C832DCF2766F5F500BBAC2F /* libresolv.tbd in Frameworks */,
+				75D222E12F1DD3F8000E9039 /* Pods_CLSDK.framework in Frameworks */,
 				5C832DCD2766F5DE00BBAC2F /* libxml2.tbd in Frameworks */,
-				5CAC23E7277C11C7007A4451 /* SAMKeychain.framework in Frameworks */,
 				5C832DCA2766F5C100BBAC2F /* libsqlite3.0.tbd in Frameworks */,
 				5C832DCB2766F5C100BBAC2F /* libsqlite3.tbd in Frameworks */,
 				5CA428AD26EF39F500B3E2AA /* libc++.tbd in Frameworks */,
 				5CA428AB26EF39E600B3E2AA /* CoreGraphics.framework in Frameworks */,
 				5CA428A926EF39DA00B3E2AA /* QuartzCore.framework in Frameworks */,
+				75D222EE2F1DDB6B000E9039 /* SAMKeychain.framework in Frameworks */,
 				5CA428A726EF39BC00B3E2AA /* AddressBook.framework in Frameworks */,
 				5CA428A526EF39B200B3E2AA /* Contacts.framework in Frameworks */,
 				5CA428A326EF39A800B3E2AA /* CoreLocation.framework in Frameworks */,
@@ -1347,7 +1366,6 @@
 				5CA4289926EF395500B3E2AA /* SystemConfiguration.framework in Frameworks */,
 				5CA4289726EF394800B3E2AA /* AVFoundation.framework in Frameworks */,
 				5CA4289526EF393500B3E2AA /* libz.tbd in Frameworks */,
-				00FBAF0D0C242239E65A7D2D /* Pods_CLSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2741,6 +2759,7 @@
 		5CCFA49326DDD20400B91197 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				75D222E02F1DD3F8000E9039 /* Pods_CLSDK.framework */,
 				7531F1BE2F163556006B97BF /* Alamofire.framework */,
 				5CBA01A027CDF81000363FED /* ReactiveCocoa.framework */,
 				5CBA01A127CDF81000363FED /* ReactiveSwift.framework */,
@@ -3133,6 +3152,7 @@
 				5C1A262226DCC6A00078254B /* Frameworks */,
 				5C1A262326DCC6A00078254B /* Resources */,
 				5C6D5A9427277C68001A05A6 /* Remove Swift Framwork */,
+				75D222E32F1DD3F8000E9039 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -3151,7 +3171,6 @@
 				5C1A262A26DCC6A10078254B /* Sources */,
 				5C1A262B26DCC6A10078254B /* Frameworks */,
 				5C1A262C26DCC6A10078254B /* Resources */,
-				69CC4DD7FD5DA442AA1C7D94 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -3241,27 +3260,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "#解决ITMS-90206问题，去掉framework包内多余的framework文件夹\ncd \"${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/\"\nif [[ -d \"Frameworks\" ]]; then \nrm -fr Frameworks\nfi\n";
-		};
-		69CC4DD7FD5DA442AA1C7D94 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CLSDK-CLSDKTests/Pods-CLSDK-CLSDKTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CLSDK-CLSDKTests/Pods-CLSDK-CLSDKTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CLSDK-CLSDKTests/Pods-CLSDK-CLSDKTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 		BE743E2C6A5454D11E312662 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -3816,7 +3814,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = mh_dylib;
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "-DDEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.corpsele.CLSDK;
@@ -3872,7 +3870,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = mh_dylib;
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.corpsele.CLSDK;
