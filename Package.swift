@@ -6,20 +6,20 @@ let package = Package(
 
     platforms: [
         .iOS(.v12),
-        .macOS(.v11_05),
+//        .macOS(.v11_05),
     ],
 
     products: [
         .library(name: "CLSDK", targets: ["CLSDK"]),
     ],
 
-    dependencies: [
-        .package(url: "https://github.com/nicklockwood/LRUCache", from: "1.2.1"),
-        .package(url: "https://github.com/swiftlang/swift-evolution", from: "1.3.0"),
-        .package(url: "https://github.com/scinfu/SwiftSoup", from: "2.11.3"),
-        .package(url: "https://github.com/Swinject/Swinject", from: "2.10.0"),
-        .package(url: "https://github.com/Swinject/SwinjectStoryboard", from: "2.2.3"),
-    ],
+//    dependencies: [
+//        .package(url: "https://github.com/nicklockwood/LRUCache", from: "1.2.1"),
+//        .package(url: "https://github.com/swiftlang/swift-evolution", from: "1.3.0"),
+//        .package(url: "https://github.com/scinfu/SwiftSoup", from: "2.11.3"),
+//        .package(url: "https://github.com/Swinject/Swinject", from: "2.10.0"),
+//        .package(url: "https://github.com/Swinject/SwinjectStoryboard", from: "2.2.3"),
+//    ],
 
     targets: [
         .target(
