@@ -6,7 +6,7 @@ let package = Package(
 
     platforms: [
         .iOS(.v12),
-        .macOS(.v11_05)
+        .macOS(.v11_05),
     ],
 
     products: [
@@ -27,14 +27,14 @@ let package = Package(
 //            dependencies: [
 //                .product(name: "AsyncAlgorithms", package: "swift-async-algorithms")
 //            ],
-            path: "Sources/CLSDK",
-            resources: [
-                .process("Resources")
-            ]
+//            path: "Sources/CLSDK",
+//            resources: [
+//                .process("Resources")
+//            ]
         ),
         .testTarget(
             name: "CLSDKTests",
-            dependencies: ["CLSDK"]
+            dependencies: ["CLSDK"],
         ),
     ]
 )
