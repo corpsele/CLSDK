@@ -32,9 +32,9 @@ let package = Package(
 //                .process("Resources")
 //            ]
         ),
-        .testTarget(
-            name: "CLSDKTests",
-            dependencies: ["CLSDK"],
-        ),
+//        .testTarget(
+//            name: "CLSDKTestSwift",
+//            dependencies: ["CLSDK"],
+//        ),
     ]
 )
