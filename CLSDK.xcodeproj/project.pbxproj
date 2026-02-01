@@ -1335,6 +1335,8 @@
 		7531F1BC2F163366006B97BF /* Imports.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Imports.swift; sourceTree = "<group>"; };
 		7531F1BE2F163556006B97BF /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		75D222E02F1DD3F8000E9039 /* Pods_CLSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_CLSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75E89D752F2F37CF00CAA2C7 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		75E89D762F2F37CF00CAA2C7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9340236608D6B20640866CA8 /* Pods_CLSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CLSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C9F4F5ECEC426411D8B81DD /* Pods-CLSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLSDK.release.xcconfig"; path = "Target Support Files/Pods-CLSDK/Pods-CLSDK.release.xcconfig"; sourceTree = "<group>"; };
 		9E9B2AFCB3491597D7D2F299 /* Pods-CLSDK-CLSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLSDK-CLSDKTests.debug.xcconfig"; path = "Target Support Files/Pods-CLSDK-CLSDKTests/Pods-CLSDK-CLSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -1384,6 +1386,8 @@
 		5C1A261B26DCC6A00078254B = {
 			isa = PBXGroup;
 			children = (
+				75E89D752F2F37CF00CAA2C7 /* Package.swift */,
+				75E89D762F2F37CF00CAA2C7 /* README.md */,
 				5C1CF31627F18EBA00D62323 /* libswiftAccelerate.dylib */,
 				5C1CF30A27F18EBA00D62323 /* libswiftARKit.dylib */,
 				5C1CF31F27F18EBB00D62323 /* libswiftAssetsLibrary.dylib */,
